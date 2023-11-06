@@ -3,13 +3,31 @@ import './temaQuiz.css';
 
 export default function TemasQuiz() {
 
-    const temas = [...new Set(questions.map(question => question.tag))];
-    console.log(temas);
+    const coresTema = {
+        'Geografia': '#9a5833',
+        'História': '#F7C942',
+        'Matemática': '#5cb8ff',
+        'Biologia': '#70ff63',
+        'Química': '#FF6633',
+        'Literatura': '#ff6961',
+    }
+
+    const temasCores = [];
+
+    questions.forEach(question => {
+      const temaExistente = temasCores.find(item => item.tag === question.tag);
+    
+      if (!temaExistente) {
+        temasCores.push({ tag: question.tag, cor: coresTema[question.tag] });
+      }
+    });
+    
+    console.log(temasCores);
 
     return (
         <div className='temas'>
-            {temas?.map( (tema, index) => (
-                <span className={tema} key={index}> {tema} </span>
+            {temasCores?.map( (tema, index) => (
+                <span style={{ backgroundColor: tema.cor}} key={index}> {tema.tag} </span>
             ))}
         </div>
     )
