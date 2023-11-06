@@ -23,8 +23,6 @@ export default function TemasQuiz() {
         temasCores.push({ tag: question.tag, cor: coresTema[question.tag] });
       }
     });
-    
-    console.log(temasCores);
 
     return (
         <div className='temas'>
