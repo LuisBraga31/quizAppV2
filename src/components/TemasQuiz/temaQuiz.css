@@ -20,6 +20,6 @@
     text-decoration: none;
 }
 
-.temas span:hover {
+.link:hover {
     transform: scale(1.1);
 }

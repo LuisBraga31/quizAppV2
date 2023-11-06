@@ -51,7 +51,7 @@ export default function DetailQuestion() {
     }
 
     return (
-        <main>
+        <main className="detail">
             { finalizado ?  (
                 <div className="finish">
                     <span> Você acertou {acertos} de 4 </span>
