@@ -10,7 +10,7 @@ export function RouteList() {
 
         <Routes>
             <Route path="/" element={<Home />} /> 
-            <Route path="/:tag/:id" element={<DetailQuestion />} /> 
+            <Route path="/:tag" element={<DetailQuestion />} /> 
         </Routes>
         
       </BrowserRouter>

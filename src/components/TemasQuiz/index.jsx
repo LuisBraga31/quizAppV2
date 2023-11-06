@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import questions from '../../data/questions';
 import './temaQuiz.css';
 
@@ -27,7 +29,9 @@ export default function TemasQuiz() {
     return (
         <div className='temas'>
             {temasCores?.map( (tema, index) => (
-                <span style={{ backgroundColor: tema.cor}} key={index}> {tema.tag} </span>
+               <Link key={index} to={`/${index}`} style={{ backgroundColor: tema.cor}} className="link" > 
+                <span> {tema.tag} </span> 
+               </Link> 
             ))}
         </div>
     )
