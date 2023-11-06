@@ -37,7 +37,7 @@ export default [
     },
     {
       tag: "História",
-      question: "Com quantos anos D. Pedro II assumiu o trono do Brasil ?",
+      question: "Com quantos anos D. Pedro II assumiu o trono do Brasil?",
       answers: [
         { option: "12", correct: false },
         { option: "14", correct: true },
@@ -46,7 +46,7 @@ export default [
     },
     {
       tag: "História",
-      question: "Em que país surgiu a primeira revolução industrial ?",
+      question: "Em que país surgiu a primeira revolução industrial?",
       answers: [
         { option: "União Soviética", correct: false },
         { option: "França", correct: false },
@@ -55,7 +55,7 @@ export default [
     },
     {
       tag: "História",
-      question: "Qual foi a primeira capital do Brasil ?",
+      question: "Qual foi a primeira capital do Brasil?",
       answers: [
         { option: "São Luís", correct: false },
         { option: "Rio de Janeiro", correct: false },
@@ -73,7 +73,7 @@ export default [
     },
     {
       tag: "Matemática",
-      question: "Qual é o resultado da equação: 5 + 2 x 30 ?",
+      question: "Qual é o resultado da equação: 5 + 2 x 30?",
       answers: [
         { option: "65", correct: true },
         { option: "210", correct: false },
@@ -82,7 +82,7 @@ export default [
     },
     {
       tag: "Matemática",
-      question: "Em um diagrama o Y representa o que ?",
+      question: "Em um diagrama o Y representa o que?",
       answers: [
         { option: "Largura", correct: false },
         { option: "Tamanho", correct: false },
@@ -109,7 +109,7 @@ export default [
     },
     {
       tag: "Biologia",
-      question: "O que a Patologia estuda ?",
+      question: "O que a Patologia estuda?",
       answers: [
         { option: "Parasitas", correct: false },
         { option: "Vírus", correct: false },
@@ -118,7 +118,7 @@ export default [
     },
     {
       tag: "Biologia",
-      question: "Qual é o nome da camada externa da pele ?",
+      question: "Qual é o nome da camada externa da pele?",
       answers: [
         { option: "Epiderme", correct: true },
         { option: "Derme", correct: false },
@@ -145,7 +145,7 @@ export default [
     },
     {
       tag: "Literatura",
-      question: "A peça Romeu e Julieta se passa em que local ?",
+      question: "A peça Romeu e Julieta se passa em que local?",
       answers: [
         { option: "Itália", correct: true },
         { option: "França", correct: false },
@@ -154,7 +154,7 @@ export default [
     },
     {
       tag: "Literatura",
-      question: "Qual era o nome do namorado de Capitu no livro Dom Casmurro ?",
+      question: "Qual era o nome do namorado de Capitu no livro Dom Casmurro?",
       answers: [
         { option: "Geninho", correct: false },
         { option: "Bentinho", correct: true },
@@ -163,7 +163,7 @@ export default [
     },
     {
       tag: "Literatura",
-      question: "Qual a maior obra de Machado de Assis ?",
+      question: "Qual a maior obra de Machado de Assis?",
       answers: [
         { option: "Memórias Póstumas de Brás Cubas", correct: true },
         { option: "Dom Casmurro", correct: false },
@@ -172,7 +172,7 @@ export default [
     },
     {
       tag: "Literatura",
-      question: "Em que ano o museu da língua portuguesa pegou fogo ?",
+      question: "Em que ano o museu da língua portuguesa pegou fogo?",
       answers: [
         { option: "2016", correct: false },
         { option: "2015", correct: true },
@@ -181,7 +181,7 @@ export default [
     },
     {
       tag: "Química",
-      question: "A sigla Sn na tabela períodica representa qual elemento ?",
+      question: "A sigla Sn na tabela períodica representa qual elemento?",
       answers: [
         { option: "Silício", correct: false },
         { option: "Estanho", correct: true },
@@ -190,7 +190,7 @@ export default [
     },
     {
       tag: "Química",
-      question: "Quem descobriu o átomo ?",
+      question: "Quem descobriu o átomo?",
       answers: [
         { option: "Leucipo de Mileto", correct: false },
         { option: "Michael Athom", correct: false },
@@ -199,7 +199,7 @@ export default [
     },
     {
       tag: "Química",
-      question: "Para que o carbono 14 é utilizado ?",
+      question: "Para que o carbono 14 é utilizado?",
       answers: [
         { option: "Datação de fósseis", correct: true },
         { option: "Datar esqueletos", correct: false },
@@ -208,7 +208,7 @@ export default [
     },
     {
       tag: "Química",
-      question: "Qual a fórmula do Peróxido de hidrogênio ?",
+      question: "Qual a fórmula do Peróxido de hidrogênio?",
       answers: [
         { option: "H3O2", correct: false },
         { option: "HO2", correct: false },
@@ -217,7 +217,7 @@ export default [
     },
     {
       tag: "Religião",
-      question: "Qual foi o segundo milagre de Jesus Cristo ?",
+      question: "Qual foi o segundo milagre de Jesus Cristo?",
       answers: [
         { option: "Curou o filho de um oficial", correct: true },
         { option: "Transformou água em vinho", correct: false },
@@ -388,7 +388,7 @@ export default [
     },
     {
       tag: "Filosofia",
-      question: "O filósofo René Descartes nasceu em que país ?",
+      question: "O filósofo René Descartes nasceu em que país?",
       answers: [
         { option: "França", correct: true },
         { option: "Aústria", correct: false },
