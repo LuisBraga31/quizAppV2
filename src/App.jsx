@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import  Header  from './components/Header';
 
 import { RouteList } from './routes';
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header/>
       <RouteList/>
+      <Footer/>
     </>
   )
 }
