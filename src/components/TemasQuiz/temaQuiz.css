@@ -1,0 +1,43 @@
+.temas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.temas span {
+    width: 140px;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    transition: 0.2s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Geografia {
+    background-color: #9a5833;
+}
+
+.História {
+    background-color: #F7C942;
+}
+
+.Matemática {
+    background-color: #5cb8ff;
+}
+
+.Biologia {
+    background-color: #70ff63;
+}
+
+.Química {
+    background-color: #FF6633;
+}
+
+.Literatura {
+    background-color: #ff6961 ;
+}
