@@ -13,6 +13,23 @@ export default function DetailQuestion() {
     const navigate = useNavigate();
     let perguntas= [];
 
+    const coresTema = {
+        '0': '#9a5833',
+        '1': '#F7C942',
+        '2': '#5cb8ff',
+        '3': '#70ff63',
+        '5': '#FF6633',
+        '4': '#ff6961',
+        '6': '#e9e9e9',
+        '7': '#009000',
+        '8': '#666666',
+        '9': '#daa520',
+        '10': '#800080',
+        '11': '#ff7fff',
+    }
+    
+    
+
     const temasUnicos = [...new Set(questions.map(question => question.tag))];
     const detail = useParams();
 
@@ -51,7 +68,7 @@ export default function DetailQuestion() {
     }
 
     return (
-        <main className="detail">
+        <main className="detailMain">
             { finalizado ?  (
                 <div className="finish">
                     <span> Você acertou {acertos} de 4 </span>
@@ -73,13 +90,16 @@ export default function DetailQuestion() {
                     <button className="voltar" onClick={voltar}> Voltar Menu </button>
                 </div>
             ) : (
-                <div className="content">
-                    <span className="tag"> {perguntas[indexAtual].tag} </span>
-                    <span className="spnQtd"> {indexAtual+1}/{perguntas.length} </span>
-                    <span className="question"> {perguntas[indexAtual].question} </span>
+                <div className="questionContent">
+                    <div className="questionTagAndIndex">
+                        <span className="tag" style={{ backgroundColor: coresTema[detail.tag]}}> {perguntas[indexAtual].tag} </span>
+                        <span>  </span>
+                        <span className="questionIndex"> {indexAtual+1} / {perguntas.length} </span>
+                    </div>
+                    <span className="questionDescribe"> {indexAtual+1}. {perguntas[indexAtual].question} </span>
                     <div className="answers">
                         {perguntas[indexAtual].answers.map((tema, index) => (
-                        <button key={index} data-correct={`${tema.correct}`} onClick={(e) => nextQuestion(e)} > 
+                        <button key={index} data-correct={`${tema.correct}`} onClick={(e) => nextQuestion(e)} style={{ backgroundColor: coresTema[detail.tag]}} > 
                             {tema.option} 
                         </button>
                         ))}

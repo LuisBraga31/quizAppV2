@@ -1,19 +1,26 @@
-.detail {
+.detailMain {
     background-color: white;
     border-radius: 12px;
-    margin: 0px 25%;
+    margin: 0px 30%;
     padding: 20px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid black ;
 }
 
-.content {
+.questionContent {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
+}
+
+.questionTagAndIndex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .tag {
@@ -24,39 +31,43 @@
     border-radius: 15px;
 }
 
-.spnQtd {
+.questionIndex {
+
     font-size: 18px;
     text-align: end;
     margin-right: 5px;
 }
 
-.question {
+.questionDescribe {
+    margin-top: 30px;
+    height: 35px;
     font-size: 16px;
-    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 0 40px;
 }
 
 .answers {
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 15px;
     padding: 0 40px;
 }
 
 .answers button { 
-    width: 100%;
+    width: 80%;
     padding: 5px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #10b3ff;
     color: black;
     border: 1px solid black;
 }
 
 button:hover {
-    background-color: #99dfff;
-    
+    opacity: 0.7;
 }
 
 /* FEEDBACK */
