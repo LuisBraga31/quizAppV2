@@ -214,6 +214,223 @@ export default [
         { option: "HO2", correct: false },
         { option: "H2O2", correct: true },
       ],
+    },
+    {
+      tag: "Religião",
+      question: "Qual foi o segundo milagre de Jesus Cristo ?",
+      answers: [
+        { option: "Curou o filho de um oficial", correct: true },
+        { option: "Transformou água em vinho", correct: false },
+        { option: "Pesca milagrosa Genesaré", correct: false },
+      ],
+    },
+    {
+      tag: "Religião",
+      question: "No budismo, qual é o nome do estado mais alto da meditação?",
+      answers: [
+        { option: "Budis", correct: false },
+        { option: "Nirvana", correct: true },
+        { option: "Mahayana", correct: false },
+      ],
+    },
+    {
+      tag: "Religião",
+      question: "No judaísmo, qual o nome da cerimônia que insere o jovem na vida adulta?",
+      answers: [
+        { option: "Bart Mitzvá", correct: true },
+        { option: "Shiv'á", correct: false },
+        { option: "Zeved habat", correct: false },
+      ],
+    },
+    {
+      tag: "Religião",
+      question: "Em que ano a imagem de Nossa Senhora Aparecida foi encontrada?",
+      answers: [
+        { option: "1712", correct: false },
+        { option: "1715", correct: false },
+        { option: "1717", correct: true },
+      ],
+    },
+    {
+      tag: "Esportes",
+      question: "Qual foi o atleta de basquete mais alto da história?",
+      answers: [
+        { option: "Yao Ming", correct: false },
+        { option: "Sun Ming", correct: true },
+        { option: "Tacko Fall", correct: false },
+      ],
+    },
+    {
+      tag: "Esportes",
+      question: "Quem detém o recorde nos 50m livres na natação?",
+      answers: [
+        { option: "Michael Phelps", correct: false },
+        { option: "César Cielo", correct: true },
+        { option: "Mark Spitz", correct: false },
+      ],
+    },
+    {
+      tag: "Esportes",
+      question: "No futebol americano, o que significa NFL?",
+      answers: [
+        { option: "National American Football League", correct: false },
+        { option: "National Football Landschip", correct: false },
+        { option: "National Football League", correct: true },
+      ],
+    },
+    {
+      tag: "Esportes",
+      question: "Qual o nome da categoria de Remo praticada até os 10 anos?",
+      answers: [
+        { option: "Mirim", correct: false },
+        { option: "Classe Juvenil", correct: false },
+        { option: "Benjamim", correct: true },
+      ],
+    },
+    {
+      tag: "Games",
+      question: "Em que ano o jogo Pac-Man foi lançado?",
+      answers: [
+        { option: "1980", correct: true },
+        { option: "1977", correct: false },
+        { option: "1974", correct: false },
+      ],
+    },
+    {
+      tag: "Games",
+      question: "No jogo Mario, qual o nome do dinossauro verde?",
+      answers: [
+        { option: "Browser", correct: false },
+        { option: "Yoshi", correct: true },
+        { option: "Luigi", correct: false },
+      ],
+    },
+    {
+      tag: "Games",
+      question: "Qual o jogo mais vendido de todos os tempos?",
+      answers: [
+        { option: "GTA V", correct: false },
+        { option: "Minecraft", correct: false },
+        { option: "Tetris", correct: true },
+      ],
+    },
+    {
+      tag: "Games",
+      question: "No jogo GTA San Andreas, qual o nome do protagonista?",
+      answers: [
+        { option: "Carl Johnson", correct: true },
+        { option: "Franklin", correct: false },
+        { option: "Charles Johnson", correct: false },
+      ],
+    },
+    {
+      tag: "Oscar",
+      question: "Quem foi eleita a melhor atriz no Oscar de 2017?",
+      answers: [
+        { option: "Jennifer Lawrence", correct: false },
+        { option: "Meryl Streep", correct: false },
+        { option: "Emma Stone", correct: true },
+      ],
+    },
+    {
+      tag: "Oscar",
+      question: "Qual animação ganhou o prêmio de melhor animação pela primeira vez?",
+      answers: [
+        { option: "Shrek", correct: true },
+        { option: "Era do Gelo", correct: false },
+        { option: "Monstros SA", correct: false },
+      ],
+    },
+    {
+      tag: "Oscar",
+      question: " Qual filme venceu o Oscar de melhor filme em 2014?",
+      answers: [
+        { option: "Gravidade", correct: false },
+        { option: "O lobo de Wall Street", correct: false },
+        { option: "12 anos de escravidão", correct: true },
+      ],
+    },
+    {
+      tag: "Oscar",
+      question: "O filme Titanic teve quantas indicações ao Oscar?",
+      answers: [
+        { option: "12", correct: false },
+        { option: "14", correct: true },
+        { option: "16", correct: false },
+      ],
+    },
+    {
+      tag: "Filosofia",
+      question: "Qual filosófo disse a frase 'Só sei que nada sei'?",
+      answers: [
+        { option: "Aristóteles ", correct: false },
+        { option: "Platão", correct: false },
+        { option: "Sócrates", correct: true },
+      ],
+    },
+    {
+      tag: "Filosofia",
+      question: "A Teoria dos Ídolos fois proposta por que filósofo moderno?",
+      answers: [
+        { option: "Galileu Galilei", correct: false },
+        { option: "Francis Bacon", correct: true },
+        { option: "René Descartes", correct: false },
+      ],
+    },
+    {
+      tag: "Filosofia",
+      question: "Ética a Nicômaco, a obra mais famosa de Aristóteles, trata-se do que?",
+      answers: [
+        { option: "Moral e Caráter", correct: true },
+        { option: "Ética e Filosofia", correct: false },
+        { option: "Ética apenas", correct: false },
+      ],
+    },
+    {
+      tag: "Filosofia",
+      question: "O filósofo René Descartes nasceu em que país ?",
+      answers: [
+        { option: "França", correct: true },
+        { option: "Aústria", correct: false },
+        { option: "Bélgica", correct: false },
+      ],
+    },
+    {
+      tag: "Inglês",
+      question: "What is the past tense of the verb 'to go'?",
+      answers: [
+        { option: "Gone", correct: true },
+        { option: "Going", correct: false },
+        { option: "Goed", correct: false },
+      ],
+    },
+    {
+      tag: "Inglês",
+      question: "What is the opposite of the word 'big'?",
+      answers: [
+        { option: "Large", correct: false },
+        { option: "Small", correct: true },
+        { option: "Huge", correct: false },
+      ],
+    },
+    {
+      tag: "Inglês",
+      question: "Qual a tradução da palavra 'antes'?",
+      answers: [
+        { option: "After", correct: false },
+        { option: "Before", correct: true },
+        { option: "Back", correct: false },
+      ],
+    },
+    {
+      tag: "Inglês",
+      question: "O 'Simple Past' é usado para fala sobre ações no:",
+      answers: [
+        { option: "Presente", correct: false },
+        { option: "Passado", correct: true },
+        { option: "Futuro", correct: false },
+      ],
     }
-    
+
+  
   ];
