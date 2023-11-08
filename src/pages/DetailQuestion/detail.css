@@ -1,13 +1,14 @@
 .detailMain {
     background-color: white;
-    border-radius: 12px;
+
     margin: 0px 30%;
     padding: 20px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black ;
+
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .questionContent {

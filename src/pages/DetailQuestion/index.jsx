@@ -24,7 +24,7 @@ export default function DetailQuestion() {
         '7': '#009000',
         '8': '#666666',
         '9': '#daa520',
-        '10': '#800080',
+        '10': '#820ad1',
         '11': '#ff7fff',
     }
     

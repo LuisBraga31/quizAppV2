@@ -16,7 +16,7 @@ export default function TemasQuiz() {
         'Esportes': '#009000',
         'Games': '#666666',
         'Oscar': '#daa520',
-        'Filosofia': '#800080',
+        'Filosofia': '#820ad1',
         'Inglês': '#ff7fff',
     }
 
