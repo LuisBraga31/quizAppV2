@@ -111,3 +111,15 @@ button:hover {
 .red {
     color: red;
 }
+
+@media (max-width: 1080px) {
+    .detailMain {
+        margin: 0 15vw;
+    }
+}
+
+@media (max-width: 540px) {
+    .tag {
+        width: 35%;
+    }
+}
