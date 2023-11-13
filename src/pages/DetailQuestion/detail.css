@@ -103,6 +103,7 @@ button:hover {
 
 .feedback p{
     font-size: 14px;
+    text-align: justify;
 }
 
 .green {
@@ -122,5 +123,26 @@ button:hover {
 @media (max-width: 540px) {
     .tag {
         width: 35%;
+    }
+}
+
+@media (max-width: 570px) {
+    .detailMain {
+        height: 340px;
+        margin-top: 160px;
+    }
+
+    .questionDescribe {
+        font-size: 14px;
+        padding: 0;
+        text-align: justify;
+    }
+
+    .answers button { 
+        font-size: 14px;
+    }
+
+    .answers {
+        padding: 0;
     }
 }

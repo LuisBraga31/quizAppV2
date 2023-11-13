@@ -8,8 +8,8 @@
     background-color: white;
     margin: 0px 200px;
     padding: 50px 40px;
-    border-radius: 12px;
-    border: 2px solid black ;
+
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 1080px) {
@@ -23,6 +23,5 @@
 @media (max-width: 425px) {
     .home {
         margin-bottom: 50px;
-        height: 100%;
     }
 }
