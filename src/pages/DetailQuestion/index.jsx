@@ -30,14 +30,17 @@ export default function DetailQuestion() {
         '7': '#009000',
         '8': '#666666',
         '9': '#daa520',
-        '10': '#800080',
+        '10': '#9400D3',
         '11': '#ff7fff',
+        '12': '#ff271a',
+        '13': '#B0C4DE',
+        '14': '#FF8C00'
     }
     
     for (let i = 0; i < questions.length; i++) {
         if(questions[i].tag === temasUnicos[detail.tag]) {
           perguntas.push(questions[i]);
-        }
+        }      
     }
 
     useEffect( () => {
@@ -132,6 +135,7 @@ export default function DetailQuestion() {
                     <span className="questionDescribe"> {indexAtual+1}. {perguntas[indexAtual].question} </span>
                     <div className="answers">
                         {perguntas[indexAtual].answers.map((tema, index) => (
+                            
                         <button key={index} data-correct={`${tema.correct}`} onClick={(e) => nextQuestion(e)} style={{ backgroundColor: coresTema[detail.tag]}} > 
                             {tema.option} 
                         </button>

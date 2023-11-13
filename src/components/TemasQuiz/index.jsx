@@ -16,8 +16,11 @@ export default function TemasQuiz() {
         'Esportes': '#009000',
         'Games': '#666666',
         'Oscar': '#daa520',
-        'Filosofia': '#820ad1',
+        'Filosofia': '#9400D3',
         'Inglês': '#ff7fff',
+        'Português': '#ff271a',
+        'Calendário': '#B0C4DE',
+        'Animais': '#FF8C00'
     }
 
     const temasCores = [];

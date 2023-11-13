@@ -397,11 +397,11 @@ export default [
     },
     {
       tag: "Inglês",
-      question: "What is the past tense of the verb 'to go'?",
+      question: "O que a palavra legend significa em português?",
       answers: [
-        { option: "Gone", correct: true },
-        { option: "Going", correct: false },
-        { option: "Goed", correct: false },
+        { option: "Lenda", correct: true },
+        { option: "Legenda", correct: false },
+        { option: "Leopardo", correct: false },
       ],
     },
     {
@@ -430,6 +430,115 @@ export default [
         { option: "Passado", correct: true },
         { option: "Futuro", correct: false },
       ],
+    },  
+    {
+      tag: "Português",
+      question: "'Subir para cima' e 'descer para baixo' são exemplos de:",
+      answers: [
+        { option: "Pleonasmo", correct: true },
+        { option: "Eufemismo", correct: false },
+        { option: "Metáfora", correct: false }
+      ],
+    },
+    {
+      tag: "Português",
+      question: "Lusófono significa:",
+      answers: [
+        { option: "Membro de uma orquestra", correct: false },
+        { option: "País que se fala Português", correct: true },
+        { option: "Pessoa que possui sotaque português", correct: false }
+      ],
+    },
+    {
+        tag: "Português",
+        question: "Qual é o plural de 'cidadão'?",
+        answers: [
+          { "option": "Cidadães", correct: false },
+          { "option": "Cidadãos", correct: false },
+          { "option": "Cidadãos", correct: true }
+        ],
+    },
+    {
+        tag: "Português",
+        question: "Identifique a classe gramatical da palavra 'alegria'.",
+        answers: [
+          { option: "Substantivo", correct: true },
+          { option: "Verbo", correct: false },
+          { option: "Adjetivo", correct: false }
+        ],
+     },
+     {
+      tag: "Calendário",
+      question: "Que dia é o feriado de Tiradentes?",
+      answers: [
+        { option: "21 de abril", correct: true },
+        { option: "7 de setembro", correct: false },
+        { option: "12 de outubro", correct: false }
+      ]
+    },
+    
+    {
+      tag: "Calendário",
+      question: "Que dia é comemorado o Dia do Trabalho?",
+      answers: [
+        { option: "25 de dezembro", correct: false },
+        { option: "1º de maio", correct: true },
+        { option: "5 de julho", correct: false }
+      ]
+    },
+    {
+      tag: "Calendário",
+      question: "Em que mês é comemorado o Dia do Médico?",
+      answers: [
+        { option: "Maio", correct: false },
+        { option: "Janeiro", correct: false },
+        { option: "Outubro", correct: true }
+      ]
+    },
+    {
+      tag: "Calendário",
+      question: "Quem instaurou o ano bissexto pela primeira vez?",
+      answers: [
+        { option: "Papa Gregório XIII", correct: false },
+        { option: "Júlio César", correct: true },
+        { option: "Diogenes II", correct: false }
+      ]
+    },
+    {
+      tag: "Animais",
+      question: "Qual a expectativa de vida de um lobo?",
+      answers: [
+        { option: "10 a 15 anos", correct: false },
+        { option: "15 a 20 anos", correct: true },
+        { option: "20 a 25 anos", correct: false }
+      ]
+    },
+    {
+      tag: "Animais",
+      question: "Qual parte do leão podemos identificar a idade do mesmo?",
+      answers: [
+        { option: "Patas", correct: false },
+        { option: "Olhos", correct: false },
+        { option: "Dentes", correct: true }
+      ]
+    },
+    {
+      tag: "Animais",
+      question: "Bluey foi o cachorro mais velho da história, quantos anos ele viveu?",
+      answers: [
+        { option: "29 anos", correct: true },
+        { option: "26 anos", correct: false },
+        { option: "27 anos", correct: false }
+      ]
+    },
+    {
+      tag: "Animais",
+      question: "Qual é o pássaro doméstico mais inteligente do mundo?",
+      answers: [
+        { option: "Papagaio-Cinzento", correct: true },
+        { option: "Periquito Australiano", correct: false },
+        { option: "Papagaio-ecletus", correct: false }
+      ]
     }
 
   
