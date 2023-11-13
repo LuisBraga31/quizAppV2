@@ -454,7 +454,7 @@ export default [
         question: "Qual é o plural de 'cidadão'?",
         answers: [
           { "option": "Cidadães", correct: false },
-          { "option": "Cidadãos", correct: false },
+          { "option": "Cidadãoz", correct: false },
           { "option": "Cidadãos", correct: true }
         ],
     },
