@@ -136,7 +136,7 @@ export default function DetailQuestion() {
                     <div className="answers">
                         {perguntas[indexAtual].answers.map((tema, index) => (
                             
-                        <button key={index} data-correct={`${tema.correct}`} onClick={(e) => nextQuestion(e)} style={{ backgroundColor: coresTema[detail.tag]}} > 
+                        <button key={index} data-correct={`${tema.correct}`} onClick={(e) => nextQuestion(e)} > 
                             {tema.option} 
                         </button>
                         ))}

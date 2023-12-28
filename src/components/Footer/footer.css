@@ -1,6 +1,7 @@
 .footer {
     width: 100%;
-    background-color: white;
+    color: #7cfc00;
+    background-color: #111111;
     position: fixed;
     z-index: 10;
     bottom: 0;
