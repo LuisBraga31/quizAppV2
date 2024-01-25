@@ -4,10 +4,11 @@
     justify-content: flex-start;
     align-items: center;
     gap: 50px;
-    color: #7cfc00;
-    background-color: #111111;
-    margin: 0px 200px;
-    padding: 50px 40px;
+    background-color: #ffffffed;
+    border: 1px solid black;
+    margin: 0 5%;
+    padding: 30px 0px;
+    border-radius: 5px;
 }
 
 @media (max-width: 1080px) {

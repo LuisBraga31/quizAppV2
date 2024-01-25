@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'REM', sans-serif;
+  font-family: 'Sora', serif;
   scroll-behavior: smooth;
 }
 
 body {
-  background: rgb(2,0,36);
-  background: #212121;
+  background: linear-gradient(rgba(79, 223, 255, 0.2), rgba(79, 223, 255, 0.2)), url('/fundo.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   width: 100%;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+
 }

@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom';
 import './header.css';
 
 export default function Header() {
   
     return (
     <header className='header'>
-        <h1> Quiz App V2 </h1>
+        <Link to="/"> Teste do Conhecimento </Link>
     </header>
   )
   

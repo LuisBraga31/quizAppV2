@@ -1,20 +1,19 @@
 .detailMain {
-    background-color: #111111;
-    color: white;
-    margin: 0px 30%;
-    padding: 20px;
-    height: 300px;
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    align-items: center;  
 }
 
 .questionContent {
+    background-color: #fffffff8;
+    border-radius: 15px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 10px;
+    margin: 0 20%;
+    height: 300px;
 }
 
 .questionTagAndIndex {
@@ -65,8 +64,7 @@
     cursor: pointer;
     color: black;
     border: 1px solid black;
-    background-color: #262626;
-    color: white;
+    background-color: #e9e9e9;
 }
 
 button:hover {
@@ -75,21 +73,29 @@ button:hover {
 
 /* FEEDBACK */
 .finish {
-    display: FLEX;
+    width: 100%;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 10px;
+    background-color: #fffffff8;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 20%;
+    height: 300px;
 }
 
 .finish button {
+    width: 140px;
     text-align: center;
-    padding: 5px;
+    padding: 5px 10px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #0070a4;
-    color: white;
+    background-color: #0ff3ff;
+    color: black;
 }
 
 .finish button:hover {
@@ -116,35 +122,12 @@ button:hover {
     color: red;
 }
 
-@media (max-width: 1080px) {
-    .detailMain {
-        margin: 0 15vw;
-    }
-}
 
-@media (max-width: 540px) {
-    .tag {
-        width: 35%;
+@media (max-width: 6000px) {
+    .questionContent {
+        margin: 0 5%;
     }
-}
-
-@media (max-width: 570px) {
-    .detailMain {
-        height: 340px;
-        margin-top: 160px;
-    }
-
-    .questionDescribe {
-        font-size: 14px;
-        padding: 0;
-        text-align: justify;
-    }
-
-    .answers button { 
-        font-size: 14px;
-    }
-
-    .answers {
-        padding: 0;
+    .finish {
+        margin: 0 5%;
     }
 }
