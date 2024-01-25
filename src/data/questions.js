@@ -6,12 +6,14 @@ export default [
         { option: "54", correct: true },
         { option: "48", correct: false },
         { option: "45", correct: false },
+        { option: "52", correct: false },
       ],
     },
     {
       tag: "Geografia",
       question: "Qual a capital do Equador?",
       answers: [
+        { option: "Candilla", correct: false },
         { option: "Medellin", correct: false },
         { option: "Quito", correct: true },
         { option: "Santiago", correct: false },
@@ -23,6 +25,7 @@ export default [
       answers: [
         { option: "Indonésia", correct: true },
         { option: "Estados Unidos", correct: false },
+        { option: "Brasil", correct: false },
         { option: "Paquistão", correct: false },
       ],
     },
@@ -32,6 +35,7 @@ export default [
       answers: [
         { option: "Melbourne", correct: false },
         { option: "Sydney", correct: false },
+        { option: "Perth", correct: false },
         { option: "Camberra", correct: true },
       ],
     },
@@ -42,6 +46,7 @@ export default [
         { option: "12", correct: false },
         { option: "14", correct: true },
         { option: "15", correct: false },
+        { option: "18", correct: false },
       ],
     },
     {
@@ -51,6 +56,7 @@ export default [
         { option: "União Soviética", correct: false },
         { option: "França", correct: false },
         { option: "Inglaterra", correct: true },
+        { option: "Itália", correct: false },
       ],
     },
     {
@@ -59,6 +65,7 @@ export default [
       answers: [
         { option: "São Luís", correct: false },
         { option: "Rio de Janeiro", correct: false },
+        { option: "São Paulo", correct: false },
         { option: "Salvador", correct: true },
       ],
     },
@@ -69,6 +76,7 @@ export default [
         { option: "Deodoro da Fonseca", correct: true },
         { option: "Floriano Peixoto", correct: false },
         { option: "Prudente de Morais", correct: false },
+        { option: "Campos Sales", correct: false },
       ],
     },
     {
@@ -78,15 +86,17 @@ export default [
         { option: "65", correct: true },
         { option: "210", correct: false },
         { option: "215", correct: false },
+        { option: "75", correct: false },
       ],
     },
     {
       tag: "Matemática",
-      question: "Em um diagrama o Y representa o que?",
+      question: "Todo número diferente de zero, elevado a zero é igual a: ",
       answers: [
-        { option: "Largura", correct: false },
-        { option: "Tamanho", correct: false },
-        { option: "Altura", correct: true },
+        { option: "0", correct: false },
+        { option: "-1", correct: false },
+        { option: "1", correct: true },
+        { option: "X", correct: false },
       ],
     },
     {
@@ -96,15 +106,17 @@ export default [
         { option: "20", correct: false },
         { option: "12,5", correct: true },
         { option: "16,5", correct: false },
+        { option: "15", correct: false },
       ],
     },
     {
       tag: "Matemática",
-      question: "53 dividido por quatro mais 5 é igual a quanto?",
+      question: "53 dividido por 4 mais 5 é igual a quanto?",
       answers: [
         { option: "13.25", correct: false },
         { option: "18.25", correct: true },
         { option: "17.75", correct: false },
+        { option: "13.75", correct: false },
       ],
     },
     {
@@ -114,6 +126,7 @@ export default [
         { option: "Parasitas", correct: false },
         { option: "Vírus", correct: false },
         { option: "Doenças", correct: true },
+        { option: "Fungos", correct: false },
       ],
     },
     {
@@ -121,6 +134,7 @@ export default [
       question: "Qual é o nome da camada externa da pele?",
       answers: [
         { option: "Epiderme", correct: true },
+        { option: "Exoderme", correct: false },
         { option: "Derme", correct: false },
         { option: "Hipoderme", correct: false },
       ],
@@ -131,7 +145,8 @@ export default [
       answers: [
         { option: "Fêmur", correct: true },
         { option: "Tíbia", correct: false },
-        { option: "Coluna", correct: false },
+        { option: "Crânio", correct: false },
+        { option: "Fíbula", correct: false },
       ],
     },
     {
@@ -141,6 +156,7 @@ export default [
         { option: "O+", correct: false },
         { option: "O-", correct: true },
         { option: "AB+", correct: false },
+        { option: "AB-", correct: false },
       ],
     },
     {
@@ -149,6 +165,7 @@ export default [
       answers: [
         { option: "Itália", correct: true },
         { option: "França", correct: false },
+        { option: "Grécia", correct: false },
         { option: "Escócia", correct: false },
       ],
     },
@@ -156,27 +173,30 @@ export default [
       tag: "Literatura",
       question: "Qual era o nome do namorado de Capitu no livro Dom Casmurro?",
       answers: [
-        { option: "Geninho", correct: false },
+        { option: "Lourenço", correct: false },
         { option: "Bentinho", correct: true },
-        { option: "Hebert", correct: false },
+        { option: "Genicio", correct: false },
+        { option: "Benicio", correct: false },
       ],
     },
     {
       tag: "Literatura",
-      question: "Qual a maior obra de Machado de Assis?",
+      question: "Quem é o autor de 'Memórias Póstumas de Brás Cubas' ?",
       answers: [
-        { option: "Memórias Póstumas de Brás Cubas", correct: true },
-        { option: "Dom Casmurro", correct: false },
-        { option: "A mão e a luva", correct: false },
+        { option: "Machado de Assis", correct: true },
+        { option: "José de Alencar", correct: false },
+        { option: "Euclides da Cunha", correct: false },
+        { option: "Clarice Lispector", correct: false },
       ],
     },
     {
       tag: "Literatura",
-      question: "Em que ano o museu da língua portuguesa pegou fogo?",
+      question: "Qual obra é conhecida como o 'Romeu e Julieta' brasileiro?",
       answers: [
-        { option: "2016", correct: false },
-        { option: "2015", correct: true },
-        { option: "2014", correct: false },
+        { option: "Iracema", correct: false },
+        { option: "O Guarani", correct: true },
+        { option: "Senhora", correct: false },
+        { option: "Lucíola", correct: false },
       ],
     },
     {
@@ -186,6 +206,7 @@ export default [
         { option: "Silício", correct: false },
         { option: "Estanho", correct: true },
         { option: "Estrôncio", correct: false },
+        { option: "Seabórgio", correct: false },
       ],
     },
     {
@@ -195,15 +216,17 @@ export default [
         { option: "Leucipo de Mileto", correct: false },
         { option: "Michael Athom", correct: false },
         { option: "John Dalton", correct: true },
+        { option: "Cody Athom", correct: false },
       ],
     },
     {
       tag: "Química",
-      question: "Para que o carbono 14 é utilizado?",
+      question: "O que representa a sigla pH?",
       answers: [
-        { option: "Datação de fósseis", correct: true },
-        { option: "Datar esqueletos", correct: false },
-        { option: "Descobrir novos dinossauros", correct: false },
+        { option: "Potência de Hidrogênio", correct: true },
+        { option: "Peso Hidrogenado", correct: false },
+        { option: "Potencial de Hélio", correct: false },
+        { option: "Ponto de Hidratação", correct: false },
       ],
     },
     {
@@ -213,87 +236,97 @@ export default [
         { option: "H3O2", correct: false },
         { option: "HO2", correct: false },
         { option: "H2O2", correct: true },
+        { option: "H2O3", correct: false },
       ],
     },
     {
       tag: "Religião",
-      question: "Qual foi o segundo milagre de Jesus Cristo?",
+      question: "Qual é o sacramento que representa a primeira participação do católico na Eucaristia?",
       answers: [
-        { option: "Curou o filho de um oficial", correct: true },
-        { option: "Transformou água em vinho", correct: false },
-        { option: "Pesca milagrosa Genesaré", correct: false },
+        { option: "Primeira Comunhão", correct: true },
+        { option: "Batismo", correct: false },
+        { option: "Confissão", correct: false },
+        { option: "Crisma", correct: false },
       ],
     },
     {
       tag: "Religião",
-      question: "No budismo, qual é o nome do estado mais alto da meditação?",
+      question: "Quem é o fundador do Budismo?",
       answers: [
         { option: "Budis", correct: false },
-        { option: "Nirvana", correct: true },
-        { option: "Mahayana", correct: false },
+        { option: "Buda", correct: true },
+        { option: "Maomé", correct: false },
+        { option: "Bud Banch", correct: false },
       ],
     },
     {
       tag: "Religião",
-      question: "No judaísmo, qual o nome da cerimônia que insere o jovem na vida adulta?",
+      question: "Qual é o livro sagrado do Judaísmo que contém a lei escrita?",
       answers: [
-        { option: "Bart Mitzvá", correct: true },
-        { option: "Shiv'á", correct: false },
-        { option: "Zeved habat", correct: false },
+        { option: "Torá", correct: true },
+        { option: "Mishná", correct: false },
+        { option: "Kipá", correct: false },
+        { option: "Bóoc", correct: false },
       ],
     },
     {
       tag: "Religião",
-      question: "Em que ano a imagem de Nossa Senhora Aparecida foi encontrada?",
+      question: "Quem é considerado o primeiro Papa da Igreja Católica?",
       answers: [
-        { option: "1712", correct: false },
-        { option: "1715", correct: false },
-        { option: "1717", correct: true },
+        { option: "São Tiago", correct: false },
+        { option: "São Paulo", correct: false },
+        { option: "São João", correct: false },
+        { option: "São Pedro", correct: true },
       ],
     },
     {
-      tag: "Esportes",
-      question: "Qual foi o atleta de basquete mais alto da história?",
+      tag: "Olímpiadas",
+      question: "Onde foi realizada as Olímpiadas de 1992",
       answers: [
-        { option: "Yao Ming", correct: false },
-        { option: "Sun Ming", correct: true },
-        { option: "Tacko Fall", correct: false },
+        { option: "Barcelona", correct: true },
+        { option: "Atenas", correct: false },
+        { option: "Atlanta", correct: false },
+        { option: "Seul", correct: false },
       ],
     },
     {
-      tag: "Esportes",
+      tag: "Olímpiadas",
       question: "Quem detém o recorde nos 50m livres na natação?",
       answers: [
         { option: "Michael Phelps", correct: false },
         { option: "César Cielo", correct: true },
         { option: "Mark Spitz", correct: false },
+        { option: "Nicolhas Turner", correct: false },
       ],
     },
     {
-      tag: "Esportes",
-      question: "No futebol americano, o que significa NFL?",
+      tag: "Olímpiadas",
+      question: "Quem foi o primeiro brasileiro a ganhar uma medalha de Ouro?",
       answers: [
-        { option: "National American Football League", correct: false },
-        { option: "National Football Landschip", correct: false },
-        { option: "National Football League", correct: true },
+        { option: "Guilherme Paraense - Tiro Esportivo", correct: true },
+        { option: "Adhemar Ferreira da Silva - Atletismo", correct: false },
+        { option: "Afrânio da Costa - Tiro Esportivo", correct: false },
+        { option: "Tetsuo Okamoto - Natação", correct: false },
       ],
     },
     {
-      tag: "Esportes",
-      question: "Qual o nome da categoria de Remo praticada até os 10 anos?",
+      tag: "Olímpiadas",
+      question: "Qual o(a) medalhista mais jovem da história?",
       answers: [
-        { option: "Mirim", correct: false },
-        { option: "Classe Juvenil", correct: false },
-        { option: "Benjamim", correct: true },
+        { option: "Momiji Nishiya - Skate Street", correct: false },
+        { option: "Doroty Poynton - Saltos Ornamentais", correct: false },
+        { option: "Luigina Giavotti - Ginástica Artística", correct: false },
+        { option: "Dimitros Loudras - Ginástica Artística", correct: true },
       ],
     },
     {
       tag: "Games",
-      question: "Em que ano o jogo Pac-Man foi lançado?",
+      question: "Quem é o protagonista da série de jogos 'The Legend of Zelda'?",
       answers: [
-        { option: "1980", correct: true },
-        { option: "1977", correct: false },
-        { option: "1974", correct: false },
+        { option: "Link", correct: true },
+        { option: "Zelda", correct: false },
+        { option: "Ganondorf", correct: false },
+        { option: "Midna", correct: false },
       ],
     },
     {
@@ -303,15 +336,17 @@ export default [
         { option: "Browser", correct: false },
         { option: "Yoshi", correct: true },
         { option: "Luigi", correct: false },
+        { option: "Toad", correct: false },
       ],
     },
     {
       tag: "Games",
-      question: "Qual o jogo mais vendido de todos os tempos?",
+      question: "Em que ano o primeiro jogo do Sonic foi lançado?",
       answers: [
-        { option: "GTA V", correct: false },
-        { option: "Minecraft", correct: false },
-        { option: "Tetris", correct: true },
+        { option: "1992", correct: false },
+        { option: "1993", correct: false },
+        { option: "1991", correct: true },
+        { option: "1988", correct: false },
       ],
     },
     {
@@ -320,7 +355,8 @@ export default [
       answers: [
         { option: "Carl Johnson", correct: true },
         { option: "Franklin", correct: false },
-        { option: "Charles Johnson", correct: false },
+        { option: "Niko Bellic", correct: false },
+        { option: "Michael", correct: false },
       ],
     },
     {
@@ -330,6 +366,7 @@ export default [
         { option: "Jennifer Lawrence", correct: false },
         { option: "Meryl Streep", correct: false },
         { option: "Emma Stone", correct: true },
+        { option: "Olivia Colman", correct: false },
       ],
     },
     {
@@ -339,6 +376,7 @@ export default [
         { option: "Shrek", correct: true },
         { option: "Era do Gelo", correct: false },
         { option: "Monstros SA", correct: false },
+        { option: "A Viagem de Chihiro", correct: false },
       ],
     },
     {
@@ -347,7 +385,8 @@ export default [
       answers: [
         { option: "Gravidade", correct: false },
         { option: "O lobo de Wall Street", correct: false },
-        { option: "12 anos de escravidão", correct: true },
+        { option: "12 anos de escravidão", correct: false },
+        { option: "Spotilight", correct: true },
       ],
     },
     {
@@ -357,6 +396,7 @@ export default [
         { option: "12", correct: false },
         { option: "14", correct: true },
         { option: "16", correct: false },
+        { option: "18", correct: false },
       ],
     },
     {
@@ -366,6 +406,7 @@ export default [
         { option: "Aristóteles ", correct: false },
         { option: "Platão", correct: false },
         { option: "Sócrates", correct: true },
+        { option: "Rene Descartes", correct: false },
       ],
     },
     {
@@ -375,6 +416,7 @@ export default [
         { option: "Galileu Galilei", correct: false },
         { option: "Francis Bacon", correct: true },
         { option: "René Descartes", correct: false },
+        { option: "Heráclito", correct: false },
       ],
     },
     {
@@ -384,6 +426,7 @@ export default [
         { option: "Moral e Caráter", correct: true },
         { option: "Ética e Filosofia", correct: false },
         { option: "Ética apenas", correct: false },
+        { option: "Moral e Sociologia", correct: false },
       ],
     },
     {
@@ -393,6 +436,7 @@ export default [
         { option: "França", correct: true },
         { option: "Aústria", correct: false },
         { option: "Bélgica", correct: false },
+        { option: "Itália", correct: false },
       ],
     },
     {
@@ -402,6 +446,7 @@ export default [
         { option: "Lenda", correct: true },
         { option: "Legenda", correct: false },
         { option: "Leopardo", correct: false },
+        { option: "Lendário", correct: false },
       ],
     },
     {
@@ -410,6 +455,7 @@ export default [
       answers: [
         { option: "Large", correct: false },
         { option: "Small", correct: true },
+        { option: "Litle", correct: false },
         { option: "Huge", correct: false },
       ],
     },
@@ -420,6 +466,7 @@ export default [
         { option: "After", correct: false },
         { option: "Before", correct: true },
         { option: "Back", correct: false },
+        { option: "Right", correct: false },
       ],
     },
     {
@@ -429,6 +476,7 @@ export default [
         { option: "Presente", correct: false },
         { option: "Passado", correct: true },
         { option: "Futuro", correct: false },
+        { option: "Pretérito", correct: false },
       ],
     },  
     {
@@ -437,7 +485,8 @@ export default [
       answers: [
         { option: "Pleonasmo", correct: true },
         { option: "Eufemismo", correct: false },
-        { option: "Metáfora", correct: false }
+        { option: "Metáfora", correct: false },
+        { option: "Burrice", correct: false },
       ],
     },
     {
@@ -446,7 +495,8 @@ export default [
       answers: [
         { option: "Membro de uma orquestra", correct: false },
         { option: "País que se fala Português", correct: true },
-        { option: "Pessoa que possui sotaque português", correct: false }
+        { option: "Pessoa que possui sotaque português", correct: false },
+        { option: "Coletivo de Portugueses", correct: false }
       ],
     },
     {
@@ -454,8 +504,9 @@ export default [
         question: "Qual é o plural de 'cidadão'?",
         answers: [
           { "option": "Cidadães", correct: false },
-          { "option": "Cidadãoz", correct: false },
-          { "option": "Cidadãos", correct: true }
+          { "option": "Cidadãez", correct: false },
+          { "option": "Cidadãos", correct: true },
+          { "option": "Cidadãozãos", correct: true },
         ],
     },
     {
@@ -464,7 +515,8 @@ export default [
         answers: [
           { option: "Substantivo", correct: true },
           { option: "Verbo", correct: false },
-          { option: "Adjetivo", correct: false }
+          { option: "Adjetivo", correct: false },
+          { option: "Artigo", correct: false }
         ],
      },
      {
@@ -473,7 +525,8 @@ export default [
       answers: [
         { option: "21 de abril", correct: true },
         { option: "7 de setembro", correct: false },
-        { option: "12 de outubro", correct: false }
+        { option: "12 de outubro", correct: false },
+        { option: "20 de maio", correct: false },
       ]
     },
     
@@ -481,9 +534,10 @@ export default [
       tag: "Calendário",
       question: "Que dia é comemorado o Dia do Trabalho?",
       answers: [
-        { option: "25 de dezembro", correct: false },
-        { option: "1º de maio", correct: true },
-        { option: "5 de julho", correct: false }
+        { option: "1 de dezembro", correct: false },
+        { option: "1 de maio", correct: true },
+        { option: "5 de julho", correct: false },
+        { option: "3 de julho", correct: false }
       ]
     },
     {
@@ -492,6 +546,7 @@ export default [
       answers: [
         { option: "Maio", correct: false },
         { option: "Janeiro", correct: false },
+        { option: "Março", correct: false },
         { option: "Outubro", correct: true }
       ]
     },
@@ -500,46 +555,10 @@ export default [
       question: "Quem instaurou o ano bissexto pela primeira vez?",
       answers: [
         { option: "Papa Gregório XIII", correct: false },
+        { option: "João IV", correct: false },
         { option: "Júlio César", correct: true },
         { option: "Diogenes II", correct: false }
       ]
-    },
-    {
-      tag: "Animais",
-      question: "Qual a expectativa de vida de um lobo?",
-      answers: [
-        { option: "10 a 15 anos", correct: false },
-        { option: "15 a 20 anos", correct: true },
-        { option: "20 a 25 anos", correct: false }
-      ]
-    },
-    {
-      tag: "Animais",
-      question: "Qual parte do leão podemos identificar a idade do mesmo?",
-      answers: [
-        { option: "Patas", correct: false },
-        { option: "Olhos", correct: false },
-        { option: "Dentes", correct: true }
-      ]
-    },
-    {
-      tag: "Animais",
-      question: "Bluey foi o cachorro mais velho da história, quantos anos ele viveu?",
-      answers: [
-        { option: "29 anos", correct: true },
-        { option: "26 anos", correct: false },
-        { option: "27 anos", correct: false }
-      ]
-    },
-    {
-      tag: "Animais",
-      question: "Qual é o pássaro doméstico mais inteligente do mundo?",
-      answers: [
-        { option: "Papagaio-Cinzento", correct: true },
-        { option: "Periquito Australiano", correct: false },
-        { option: "Papagaio-ecletus", correct: false }
-      ]
     }
-
   
   ];

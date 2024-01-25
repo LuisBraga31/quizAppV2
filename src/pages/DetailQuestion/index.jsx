@@ -81,7 +81,7 @@ export default function DetailQuestion() {
     function voltar() {
         navigate('/')
     }
-
+    
     function reiniciar() {
         setFeedback([]);
         setAcertos(0);
@@ -102,6 +102,7 @@ export default function DetailQuestion() {
             setUrl('https://media.tenor.com/53mmUaqb1b0AAAAC/copa-torcedor.gif');
           }
     }
+
 
     return (
         <main className="detailMain">
@@ -137,7 +138,7 @@ export default function DetailQuestion() {
                     </div>
                     <span className="questionDescribe"> {indexAtual+1}. {perguntas[indexAtual].question} </span>
                     <div className="answers">
-                        {perguntas[indexAtual].answers.map((tema, index) => (
+                        {perguntas[indexAtual].answers.slice().sort(() => Math.random() - 0.5).map((tema, index) => (
                             
                             <button key={index} data-correct={`${tema.correct}`} onClick={(e) => nextQuestion(e)} > 
                                 {tema.option} 

@@ -13,7 +13,7 @@ export default function TemasQuiz() {
         'Química': '#FF6633',
         'Literatura': '#ff6961',
         'Religião': '#e9e9e9',
-        'Esportes': '#009000',
+        'Olímpiadas': '#009930',
         'Games': '#666666',
         'Oscar': '#daa520',
         'Filosofia': '#9400D3',
