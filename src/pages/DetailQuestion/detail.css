@@ -13,7 +13,7 @@
     width: 100%;
     gap: 10px;
     margin: 0 20%;
-    height: 300px;
+    padding-bottom: 50px;
 }
 
 .questionTagAndIndex {
@@ -47,28 +47,30 @@
 }
 
 .answers {
+
     margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    justify-items: center;
     gap: 15px;
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
-.answers button { 
-    width: 80%;
-    padding: 5px;
+.answers button {
+    width: 100%; 
+    padding: 8px 0;
     border: none;
     border-radius: 5px;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
     color: black;
     border: 1px solid black;
-    background-color: #e9e9e9;
+    background-color: #ffffff;
 }
 
 button:hover {
-    opacity: 0.7;
+    background-color: rgb(229, 229, 229);
 }
 
 /* FEEDBACK */
