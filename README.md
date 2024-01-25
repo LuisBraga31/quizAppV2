@@ -1,8 +1,25 @@
-# React + Vite
+# Projeto Quiz App V2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto foi o desenvolvimento de um novo Quiz App, utilizando novas tecnologias como o React.
 
-Currently, two official plugins are available:
+## Imagem do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Capturar](https://github.com/LuisBraga31/quizAppV2/assets/83723698/593c3548-ecf8-4c19-b8be-6e96786a70ff)
+
+## Tecnologias Utilizadas:
+
+Essas foras as seguintes tecnologias usadas para criação do projeto.
+
+* React
+* JavaScript
+* HTML
+* CSS
+
+## Serviços Usados:
+
+* GitHub
+* Vercel
+
+## Links
+  - Deploy no Vercel: https://quiz-app-v2-eight.vercel.app/
+  - Repositório: https://github.com/LuisBraga31/quizAppV2
