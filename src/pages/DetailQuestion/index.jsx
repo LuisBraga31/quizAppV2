@@ -106,6 +106,7 @@ export default function DetailQuestion() {
     return (
         <main className="detailMain">
             { finalizado ?  (
+                
                 <div className="finish">
                     <span> Você acertou {acertos} de 4 </span>
                     <div className="feedback"> 
@@ -125,23 +126,27 @@ export default function DetailQuestion() {
                     <button onClick={reiniciar}>Reiniciar</button>
                     <button className="voltar" onClick={voltar}> Voltar Menu </button>
                 </div>
+
             ) : (
+                
                 <div className="questionContent">
                     <div className="questionTagAndIndex">
                         <span className="tag" style={{ backgroundColor: coresTema[detail.tag]}}> {perguntas[indexAtual].tag} </span>
-                        <span>  </span>
+                        
                         <span className="questionIndex"> {indexAtual+1} / {perguntas.length} </span>
                     </div>
                     <span className="questionDescribe"> {indexAtual+1}. {perguntas[indexAtual].question} </span>
                     <div className="answers">
                         {perguntas[indexAtual].answers.map((tema, index) => (
                             
-                        <button key={index} data-correct={`${tema.correct}`} onClick={(e) => nextQuestion(e)} > 
-                            {tema.option} 
-                        </button>
+                            <button key={index} data-correct={`${tema.correct}`} onClick={(e) => nextQuestion(e)} > 
+                                {tema.option} 
+                            </button>
+
                         ))}
                     </div>
-                </div>     
+                </div>  
+
             )}
 
         </main>

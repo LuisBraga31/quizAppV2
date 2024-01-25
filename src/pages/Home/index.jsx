@@ -6,7 +6,7 @@ export default function Home() {
 
     return (
         <main className="home">
-            <h1> Temas </h1>
+            <h1> Escolha um Tema </h1>
             <TemasQuiz/>
         </main>
     )
