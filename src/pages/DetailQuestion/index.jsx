@@ -34,7 +34,6 @@ export default function DetailQuestion() {
         '11': '#ff7fff',
         '12': '#ff271a',
         '13': '#B0C4DE',
-        '14': '#FF8C00'
     }
     
     for (let i = 0; i < questions.length; i++) {
@@ -76,10 +75,6 @@ export default function DetailQuestion() {
             setFinalizado(true);
         }
         
-    }
-
-    function voltar() {
-        navigate('/')
     }
     
     function reiniciar() {
@@ -125,7 +120,7 @@ export default function DetailQuestion() {
                         })}
                     </div>
                     <button onClick={reiniciar}>Reiniciar</button>
-                    <button className="voltar" onClick={voltar}> Voltar Menu </button>
+                    <button className="voltar" onClick={() => navigate('/')}> Voltar Menu </button>
                 </div>
 
             ) : (
