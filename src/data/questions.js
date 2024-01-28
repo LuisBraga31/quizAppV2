@@ -142,6 +142,67 @@ export default [
       ],
     },
     {
+      tag: "História",
+      question: "Quem foi o primeiro presidente dos Estados Unidos?",
+      answers: [
+        { option: "George Washington", correct: true },
+        { option: "Thomas Jefferson", correct: false },
+        { option: "Abraham Lincoln", correct: false },
+        { option: "John Adams", correct: false },
+      ],
+    },
+    {
+      tag: "História",
+      question: "Em que ano ocorreu a Revolução Francesa?",
+      answers: [
+        { option: "1776", correct: false },
+        { option: "1789", correct: true },
+        { option: "1804", correct: false },
+        { option: "1815", correct: false },
+      ],
+    },
+    {
+      tag: "História",
+      question: "Em que ano Cristóvão Colombo descobriu a América?",
+      answers: [
+        { option: "1492", correct: true },
+        { option: "1519", correct: false },
+        { option: "1532", correct: false },
+        { option: "1500", correct: false },
+      ],
+    },
+    {
+      tag: "História",
+      question: "Qual cidade foi a capital do Império Romano do Ocidente?",
+      answers: [
+        { option: "Roma", correct: false },
+        { option: "Constantinopla", correct: false },
+        { option: "Milão", correct: false },
+        { option: "Ravenna", correct: true },
+      ],
+    },
+    {
+      tag: "História",
+      question: "Quem foi o último presidente do período militar no Brasil, antes da redemocratização?",
+      answers: [
+        { option: "Enersto Geisel", correct: false },
+        { option: "João Figueiredo", correct: true },
+        { option: "Emilio Médici", correct: false },
+        { option: "Arthur da Costa e Silva", correct: false },
+      ],
+    },
+    {
+      tag: "História",
+      question: "Qual foi o nome do movimento que resultou na independência do Brasil?",
+      answers: [
+        { option: "Grito do Ipiranga", correct: false },
+        { option: "Inconfidência Mineira", correct: false },
+        { option: "Revolução Farroupilha", correct: false },
+        { option: "Dia do Fico", correct: true },
+      ],
+    },
+
+    {
       tag: "Matemática",
       question: "Qual é o resultado da equação: 5 + 2 x 30?",
       answers: [
@@ -163,7 +224,7 @@ export default [
     },
     {
       tag: "Matemática",
-      question: "25 representa quantos por cento de 200?",
+      question: "Vinte e Cinco (25) representa quantos por cento de 200?",
       answers: [
         { option: "20", correct: false },
         { option: "12,5", correct: true },
@@ -181,6 +242,67 @@ export default [
         { option: "13.75", correct: false },
       ],
     },
+    {
+      tag: "Matemática",
+      question: "Quanto é a raiz quadrada de 144?",
+      answers: [
+        { option: "10", correct: false },
+        { option: "12", correct: true },
+        { option: "14", correct: false },
+        { option: "16", correct: false },
+      ],
+    },
+    {
+      tag: "Matemática",
+      question: "Qual é o resultado de (8 - 3) x 2?",
+      answers: [
+        { option: "10", correct: true },
+        { option: "8", correct: false },
+        { option: "12", correct: false },
+        { option: "15", correct: false },
+      ],
+    },
+    {
+      tag: "Matemática",
+      question: "Quanto é 5! (fatorial de 5)?",
+      answers: [
+        { option: "120", correct: true },
+        { option: "60", correct: false },
+        { option: "24", correct: false },
+        { option: "720", correct: false },
+      ],
+    },
+    {
+      tag: "Matemática",
+      question: "Qual é o resultado de 4² + 3 x 5?",
+      answers: [
+        { option: "35", correct: false },
+        { option: "23", correct: false },
+        { option: "31", correct: true },
+        { option: "95", correct: false },
+      ],
+    },
+    {
+      tag: "Matemática",
+      question: "Qual é o valor de x na equação 3x - 7 = 8?",
+      answers: [
+        { option: "5", correct: true },
+        { option: "4", correct: false },
+        { option: "6", correct: false },
+        { option: "9", correct: false },
+      ],
+    },
+    {
+      tag: "Matemática",
+      question: "Qual é a fração equivalente a 0,75?",
+      answers: [
+        { option: "3/4", correct: true },
+        { option: "2/3", correct: false },
+        { option: "4/5", correct: false },
+        { option: "5/6", correct: false },
+      ],
+    },
+        
     {
       tag: "Biologia",
       question: "O que a Patologia estuda?",
