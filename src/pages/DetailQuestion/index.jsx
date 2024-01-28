@@ -85,18 +85,32 @@ export default function DetailQuestion() {
     }
 
     const getCustomFeedback = () => {
-        console.log(acertos)
-        if(acertos == 0 || acertos == 1) {
-            setUrl('https://www.maxieduca.com.br/blog/wp-content/uploads/2017/10/Nota-Zero.jpg');
-          } else if(acertos >= 2 && acertos <= 4) {
-            setUrl('https://extra.globo.com/incoming/25209387-3f4-847/w640h360-PROP/meme-chloe.png');
-          } else if(acertos >= 5 && acertos <= 7) {
-            setUrl('https://pm1.aminoapps.com/6389/9c28e4faffa7fc8556b19863a3f2bbab507a1cab_hq.jpg');
-          } else if(acertos == 8 || acertos == 9) {
-            setUrl('https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/04/15/150415162940_success_kid_624x351_arquivopessoal.jpg');
-          } else if(acertos == 10) {
-            setUrl('https://media.tenor.com/53mmUaqb1b0AAAAC/copa-torcedor.gif');
-          }
+        if(perguntas.length === 10) {
+            if(acertos == 0 || acertos == 1) {
+                setUrl('https://www.maxieduca.com.br/blog/wp-content/uploads/2017/10/Nota-Zero.jpg');
+              } else if(acertos >= 2 && acertos <= 4) {
+                setUrl('https://extra.globo.com/incoming/25209387-3f4-847/w640h360-PROP/meme-chloe.png');
+              } else if(acertos >= 5 && acertos <= 7) {
+                setUrl('https://pm1.aminoapps.com/6389/9c28e4faffa7fc8556b19863a3f2bbab507a1cab_hq.jpg');
+              } else if(acertos == 8 || acertos == 9) {
+                setUrl('https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/04/15/150415162940_success_kid_624x351_arquivopessoal.jpg');
+              } else if(acertos == 10) {
+                setUrl('https://media.tenor.com/53mmUaqb1b0AAAAC/copa-torcedor.gif');
+              }
+        } else {
+            if(acertos == 0 ) {
+                setUrl('https://www.maxieduca.com.br/blog/wp-content/uploads/2017/10/Nota-Zero.jpg');
+              } else if(acertos == 1) {
+                setUrl('https://extra.globo.com/incoming/25209387-3f4-847/w640h360-PROP/meme-chloe.png');
+              } else if(acertos == 2) {
+                setUrl('https://pm1.aminoapps.com/6389/9c28e4faffa7fc8556b19863a3f2bbab507a1cab_hq.jpg');
+              } else if(acertos == 3) {
+                setUrl('https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/04/15/150415162940_success_kid_624x351_arquivopessoal.jpg');
+              } else if(acertos == 4) {
+                setUrl('https://media.tenor.com/53mmUaqb1b0AAAAC/copa-torcedor.gif');
+              }
+        }
+
     }
 
 
