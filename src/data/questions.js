@@ -21,7 +21,7 @@ export default [
     },
     {
       tag: "Geografia",
-      question: "Qual é o 4 país mais populoso do mundo?",
+      question: "Qual é o 4º país mais populoso do mundo?",
       answers: [
         { option: "Indonésia", correct: true },
         { option: "Estados Unidos", correct: false },
@@ -39,6 +39,68 @@ export default [
         { option: "Camberra", correct: true },
       ],
     },
+    {
+      tag: "Geografia",
+      question: "Qual é o maior oceano do mundo?",
+      answers: [
+        { option: "Oceano Atlântico", correct: false },
+        { option: "Oceano Índico", correct: false },
+        { option: "Oceano Ártico", correct: false },
+        { option: "Oceano Pacífico", correct: true },
+      ],
+    },
+    {
+      tag: "Geografia",
+      question: "Qual é a capital da França?",
+      answers: [
+        { option: "Roma", correct: false },
+        { option: "Londres", correct: false },
+        { option: "Madrid", correct: false },
+        { option: "Paris", correct: true },
+      ],
+    },
+    {
+      tag: "Geografia",
+      question: "Qual é o maior arquipélago do mundo?",
+      answers: [
+        { option: "Havaí", correct: false },
+        { option: "Filipinas", correct: false },
+        { option: "Japão", correct: false },
+        { option: "Indonésia", correct: true },
+      ],
+    },
+    {
+      tag: "Geografia",
+      question: "Qual é o rio mais longo do mundo?",
+      answers: [
+        { option: "Rio Yangtzé", correct: false },
+        { option: "Rio Mississipi", correct: false },
+        { option: "Rio Nilo", correct: false },
+        { option: "Rio Amazonas", correct: true },
+      ],
+    },
+    {
+      tag: "Geografia",
+      question: "Qual é a cidade mais populosa do mundo?",
+      answers: [
+        { option: "Pequim, China", correct: false },
+        { option: "Mumbai, Índia", correct: false },
+        { option: "Nova York, EUA", correct: false },
+        { option: "Tóquio, Japão", correct: true },
+      ],
+    },
+    {
+      tag: "Geografia",
+      question: "Qual a capital da Gana?",
+      answers: [
+        { option: "Abuja", correct: false },
+        { option: "Yamussucro", correct: false },
+        { option: "Yaoundé", correct: false },
+        { option: "Acra", correct: true },
+      ],
+    },
+    
+    
     {
       tag: "História",
       question: "Com quantos anos D. Pedro II assumiu o trono do Brasil?",

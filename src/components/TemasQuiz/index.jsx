@@ -6,7 +6,7 @@ import './temaQuiz.css';
 export default function TemasQuiz() {
 
     const coresTema = {
-        'Geografia': '#9a5833',
+        'Geografia': '#ba6f43',
         'História': '#F7C942',
         'Matemática': '#5cb8ff',
         'Biologia': '#70ff63',
