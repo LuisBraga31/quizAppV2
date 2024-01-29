@@ -3,63 +3,39 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Swal from 'sweetalert2';
 
+import { coresTema } from '../../data/coresTemas';
 import questions from '../../data/questions';
 import './detail.css';
 
 export default function DetailQuestion() {
 
+    const [perguntas, setPerguntas] = useState([]);
     const [indexAtual, setIndexAtual] = useState(0);
     const [acertos, setAcertos] = useState(0);
     const [url, setUrl] = useState('');
     const [finalizado, setFinalizado] = useState(false);
     const [feedback, setFeedback] = useState([]);
+
     const detail = useParams();
     const navigate = useNavigate();
     
-    let perguntas= [];
-
-    const temasUnicos = [...new Set(questions.map(question => question.tag))];
-    const coresTema = {
-        'Geografia': '#ba6f43',
-        'História': '#F7C942',
-        'Matemática': '#5cb8ff',
-        'Biologia': '#70ff63',
-        'Química': '#FF6633',
-        'Literatura': '#ff6961',
-        'Religião': '#e9e9e9',
-        'Olímpiadas': '#009930',
-        'Games': '#D5D5D5',
-        'Oscar': '#daa520',
-        'Filosofia': '#9400D3',
-        'Inglês': '#ff7fff',
-        'Português': '#ff271a',
-        'Calendário': '#B0C4DE',
-        'Animais': '#FF8C00'
-    }
-    
-    for (let i = 0; i < questions.length; i++) {
-        if(questions[i].tag === temasUnicos[detail.tag]) {
-          perguntas.push(questions[i]);
-        }      
-    }
-
-    useEffect( () => {
-        getCustomFeedback();
+    function getPerguntasList() {
         
-        if(finalizado) {
-            Swal.fire({
-                title: 'Jogo Finalizado!',
-                text: `Você acertou ${acertos} de ${perguntas.length}`,
-                imageUrl: `${url}`,
-                imageWidth: 400,
-                imageHeight: 200,
-                imageAlt: 'Custom image',
-                confirmButtonText: 'Ver feedback',
-                confirmButtonColor: 'green'
-              })
+        let listPerguntas = [];
+        const temasUnicos = [...new Set(questions.map(question => question.tag))];
+
+        for (let i = 0; i < questions.length; i++) {
+            if(questions[i].tag === temasUnicos[detail.tag]) {
+                listPerguntas.push(questions[i]);
+            }      
         }
 
-    }, [acertos, url, finalizado])
+        setPerguntas(listPerguntas);
+    }
+
+    useEffect(() => {
+        getPerguntasList();
+    }, []) 
     
     function nextQuestion(e) {
      
@@ -114,15 +90,32 @@ export default function DetailQuestion() {
 
     }
 
+    useEffect( () => {
+        getCustomFeedback();
+        
+        if(finalizado) {
+            Swal.fire({
+                title: 'Jogo Finalizado!',
+                text: `Você acertou ${acertos} de ${perguntas.length}`,
+                imageUrl: `${url}`,
+                imageWidth: 400,
+                imageHeight: 200,
+                imageAlt: 'Custom image',
+                confirmButtonText: 'Ver feedback',
+                confirmButtonColor: 'green'
+              })
+        }
+
+    }, [acertos, url, finalizado])
 
     return (
         <main className="detailMain">
             { finalizado ?  (
                 
                 <div className="finish">
-                    <span> Você acertou {acertos} de {perguntas.length} </span>
+                    <span> Você acertou {acertos} de {perguntas?.length} </span>
                     <div className="feedback"> 
-                        {perguntas.map((tema, index) => {
+                        {perguntas?.map((tema, index) => {
                             if(feedback[index] === true) {
                                 return (
                                     <p key={index} className="green"> {index + 1}. {tema.question} </p>
@@ -143,13 +136,13 @@ export default function DetailQuestion() {
                 
                 <div className="questionContent">
                     <div className="questionTagAndIndex">
-                        <span className="tag" style={{ backgroundColor: coresTema[perguntas[indexAtual].tag]}}> {perguntas[indexAtual].tag} </span>
+                        <span className="tag" style={{ backgroundColor: coresTema[perguntas[indexAtual]?.tag]}}> {perguntas[indexAtual]?.tag} </span>
                         
-                        <span className="questionIndex"> {indexAtual+1} / {perguntas.length} </span>
+                        <span className="questionIndex"> {indexAtual+1} / {perguntas?.length} </span>
                     </div>
-                    <span className="questionDescribe"> {indexAtual+1}. {perguntas[indexAtual].question} </span>
+                    <span className="questionDescribe"> {indexAtual+1}. {perguntas[indexAtual]?.question} </span>
                     <div className="answers">
-                        {perguntas[indexAtual].answers.slice().sort(() => Math.random() - 0.5).map((tema, index) => (
+                        {perguntas[indexAtual]?.answers.slice().sort(() => Math.random() - 0.5).map((tema, index) => (
                             
                             <button key={index} data-correct={`${tema.correct}`} onClick={(e) => nextQuestion(e)} > 
                                 {tema.option} 
