@@ -1,4 +1,5 @@
 export default [
+    // Geografia
     {
       tag: "Geografia",
       question: "Quantos países tem na África?",
@@ -100,7 +101,7 @@ export default [
       ],
     },
     
-    
+   // História 
     {
       tag: "História",
       question: "Com quantos anos D. Pedro II assumiu o trono do Brasil?",
@@ -201,7 +202,8 @@ export default [
         { option: "Dia do Fico", correct: true },
       ],
     },
-
+    
+    // Matemática
     {
       tag: "Matemática",
       question: "Qual é o resultado da equação: 5 + 2 x 30?",
@@ -303,6 +305,7 @@ export default [
       ],
     },
         
+    // Biologia
     {
       tag: "Biologia",
       question: "O que a Patologia estuda?",
@@ -344,6 +347,68 @@ export default [
       ],
     },
     {
+      tag: "Biologia",
+      question: "Qual é a função principal das mitocôndrias nas células?",
+      answers: [
+        { option: "Produção de proteínas", correct: false },
+        { option: "Armazenamento de energia", correct: false },
+        { option: "Digestão celular", correct: false },
+        { option: "Produção de energia (ATP)", correct: true },
+      ],
+    },
+    {
+      tag: "Biologia",
+      question: "Qual é a principal função das hemácias (glóbulos vermelhos) no sangue?",
+      answers: [
+        { option: "Transporte de oxigênio", correct: true },
+        { option: "Coagulação", correct: false },
+        { option: "Defesa imunológica", correct: false },
+        { option: "Produção de anticorpos", correct: false },
+      ],
+    },
+    {
+      tag: "Biologia",
+      question: "Qual é a função dos rins no corpo humano?",
+      answers: [
+        { option: "Respiração", correct: false },
+        { option: "Digestão", correct: false },
+        { option: "Filtrar o sangue", correct: true },
+        { option: "Circulação sanguínea", correct: false },
+      ],
+    },
+    {
+      tag: "Biologia",
+      question: "O que os girassóis fazem durante o dia?",
+      answers: [
+        { option: "Dormem", correct: false },
+        { option: "Fotossíntese", correct: true },
+        { option: "Cantam", correct: false },
+        { option: "Correm", correct: false },
+      ],
+    },
+    {
+      tag: "Biologia",
+      question: "O que a célula usa como sua 'fábrica de energia'?",
+      answers: [
+        { option: "Cloroplastos", correct: false },
+        { option: "Núcleo", correct: false },
+        { option: "Mitocôndrias", correct: true },
+        { option: "Vacúolos", correct: false },
+      ],
+    },
+    {
+      tag: "Biologia",
+      question: "Qual é o nome dado à parte do DNA que carrega informações genéticas específicas?",
+      answers: [
+        { option: "Gene", correct: true },
+        { option: "Cromossomo", correct: false },
+        { option: "Alelo", correct: false },
+        { option: "Genoma", correct: false },
+      ],
+    },
+
+    // Literatura    
+    {
       tag: "Literatura",
       question: "A peça Romeu e Julieta se passa em que local?",
       answers: [
@@ -383,6 +448,68 @@ export default [
         { option: "Lucíola", correct: false },
       ],
     },
+    {
+      tag: "Literatura",
+      question: "Quem escreveu 'Dom Quixote', considerado um dos primeiros romances modernos?",
+      answers: [
+        { option: "Miguel de Cervantes", correct: true },
+        { option: "William Shakespeare", correct: false },
+        { option: "Charles Dickens", correct: false },
+        { option: "Jane Austen", correct: false },
+      ],
+    },
+    {
+      tag: "Literatura",
+      question: "Qual é o movimento literário que enfatiza a valorização do sentimento de saudade e da natureza exuberante ?",
+      answers: [
+        { option: "Arcadismo", correct: false },
+        { option: "Romantismo", correct: true },
+        { option: "Realismo", correct: false },
+        { option: "Modernismo", correct: false },
+      ],
+    },
+    {
+      tag: "Literatura",
+      question: "Quem é o autor da peça teatral 'Romeu e Julieta'?",
+      answers: [
+        { option: "William Shakespeare", correct: true },
+        { option: "George Orwell", correct: false },
+        { option: "F. Scott Fitzgerald", correct: false },
+        { option: "Hermann Hesse", correct: false },
+      ],
+    },
+    {
+      tag: "Literatura",
+      question: "Quem é o protagonista do romance 'Os Lusíadas', de Luís de Camões?",
+      answers: [
+        { option: "Dom Quixote", correct: false },
+        { option: "Ulisses", correct: true },
+        { option: "Fausto", correct: false },
+        { option: "Dom Casmurro", correct: false },
+      ],
+    },
+    {
+      tag: "Literatura",
+      question: "Quem é a protagonista do romance 'O Cortiço', de Aluísio Azevedo?",
+      answers: [
+        { option: "Capitu", correct: false },
+        { option: "Isabel", correct: false },
+        { option: "Joana", correct: false },
+        { option: "Rita Baiana", correct: true },
+      ],
+    },
+    {
+      tag: "Literatura",
+      question: "Qual é o movimento literário que enfatiza a razão, a observação da realidade e a crítica social ?",
+      answers: [
+        { option: "Arcadismo", correct: false },
+        { option: "Romantismo", correct: false },
+        { option: "Realismo", correct: true },
+        { option: "Parnasianismo", correct: false },
+      ],
+    },
+
+    // Química 
     {
       tag: "Química",
       question: "A sigla Sn na tabela períodica representa qual elemento?",
@@ -424,6 +551,68 @@ export default [
       ],
     },
     {
+      tag: "Química",
+      question: "Qual é o elemento mais abundante na crosta terrestre?",
+      answers: [
+        { option: "Oxigênio", correct: true },
+        { option: "Carbono", correct: false },
+        { option: "Silício", correct: false },
+        { option: "Alumínio", correct: false },
+      ],
+    },
+    {
+      tag: "Química",
+      question: "Qual é o pH neutro?",
+      answers: [
+        { option: "6", correct: false },
+        { option: "7", correct: true },
+        { option: "8", correct: false },
+        { option: "9", correct: false },
+      ],
+    },
+    {
+      tag: "Química",
+      question: "Na tabela periódica, qual a sigla do 'chumbo'?",
+      answers: [
+        { option: "Pb", correct: true },
+        { option: "Cu", correct: false },
+        { option: "Cb", correct: false },
+        { option: "Ld", correct: false },
+      ],
+    },
+    {
+      tag: "Química",
+      question: "Quantos elementos químicos estão presentes na tabela periódica moderna?",
+      answers: [
+        { option: "118", correct: true },
+        { option: "108", correct: false },
+        { option: "128", correct: false },
+        { option: "98", correct: false },
+      ],
+    },
+    {
+      tag: "Química",
+      question: "Qual é o metal mais abundante na crosta terrestre?",
+      answers: [
+        { option: "Ferro", correct: true },
+        { option: "Alumínio", correct: false },
+        { option: "Cobre", correct: false },
+        { option: "Ouro", correct: false },
+      ],
+    },
+    {
+      tag: "Química",
+      question: "Qual é o principal componente do gás natural?",
+      answers: [
+        { option: "Metano", correct: true },
+        { option: "Etano", correct: false },
+        { option: "Propano", correct: false },
+        { option: "Butano", correct: false },
+      ],
+    },
+  
+    // Religião
+    {
       tag: "Religião",
       question: "Qual é o sacramento que representa a primeira participação do católico na Eucaristia?",
       answers: [
@@ -464,8 +653,70 @@ export default [
       ],
     },
     {
+      tag: "Religião",
+      question: "Qual é o nome dado ao ritual de invocação e incorporação dos orixás no Candomblé?",
+      answers: [
+        { option: "Axé", correct: false },
+        { option: "Oferenda", correct: false },
+        { option: "Festa", correct: false },
+        { option: "Oxê", correct: true },
+      ],
+    },
+    {
+      tag: "Religião",
+      question: "Quantos livros compõem o Novo Testamento da Bíblia Cristã?",
+      answers: [
+        { option: "24", correct: false },
+        { option: "27", correct: true },
+        { option: "39", correct: false },
+        { option: "66", correct: false },
+      ],
+    },
+    {
+      tag: "Religião",
+      question: "Qual é o nome do lugar sagrado mais importante para os judeus?",
+      answers: [
+        { option: "Meca", correct: false },
+        { option: "Vaticano", correct: false },
+        { option: "Jerusalém", correct: true },
+        { option: "Lourdes", correct: false },
+      ],
+    },
+    {
+      tag: "Religião",
+      question: "Qual é o nome do mês em que os muçulmanos praticam o jejum durante o dia?",
+      answers: [
+        { option: "Ramadã", correct: true },
+        { option: "Hajj", correct: false },
+        { option: "Eid al-Fitr", correct: false },
+        { option: "Shawwal", correct: false },
+      ],
+    },
+    {
+      tag: "Religião",
+      question: "Qual é o nome do livro básico da doutrina espírita, escrito por Allan Kardec?",
+      answers: [
+        { option: "O Evangelho Segundo o Espiritismo", correct: false },
+        { option: "O Livro dos Médiuns", correct: false },
+        { option: "O Livro dos Espíritos", correct: true },
+        { option: "O Céu e o Inferno", correct: false },
+      ],
+    },
+    {
+      tag: "Religião",
+      question: "Qual é o nome do primeiro livro do Antigo Testamento da Bíblia?",
+      answers: [
+        { option: "Gênesis", correct: true },
+        { option: "Êxodo", correct: false },
+        { option: "Levítico", correct: false },
+        { option: "Deuteronômio", correct: false },
+      ],
+    },
+    
+    // Olímpiadas
+    {
       tag: "Olímpiadas",
-      question: "Onde foi realizada as Olímpiadas de 1992",
+      question: "Onde foi realizada as Olímpiadas de 1992?",
       answers: [
         { option: "Barcelona", correct: true },
         { option: "Atenas", correct: false },
@@ -503,6 +754,68 @@ export default [
         { option: "Dimitros Loudras - Ginástica Artística", correct: true },
       ],
     },
+    {
+      tag: "Olímpiadas",
+      question: "Em qual esporte um atleta compete na modalidade 'salto com vara'?",
+      answers: [
+        { option: "Atletismo", correct: true },
+        { option: "Natação", correct: false },
+        { option: "Ginástica Artística", correct: false },
+        { option: "Esqui", correct: false },
+      ],
+    },
+    {
+      tag: "Olímpiadas",
+      question: "Qual atleta detém o recorde mundial dos 100 metros rasos?",
+      answers: [
+        { option: "Usain Bolt", correct: true },
+        { option: "Carl Lewis", correct: false },
+        { option: "Jesse Owens", correct: false },
+        { option: "Tyson Gray", correct: false },
+      ],
+    },
+    {
+      tag: "Olímpiadas",
+      question: "Qual país sediou as Olimpíadas de Verão de 2016?",
+      answers: [
+        { option: "China", correct: false },
+        { option: "Rússia", correct: false },
+        { option: "Brasil", correct: true },
+        { option: "Estados Unidos", correct: false },
+      ],
+    },
+    {
+      tag: "Olímpiadas",
+      question: "Quantos anéis compõem o símbolo olímpico?",
+      answers: [
+        { option: "3", correct: false },
+        { option: "4", correct: false },
+        { option: "5", correct: true },
+        { option: "6", correct: false },
+      ],
+    },
+    {
+      tag: "Olímpiadas",
+      question: "Qual atleta venceu o maior número de medalhas de ouro olímpicas na história dos Jogos Olímpicos de Verão?",
+      answers: [
+        { option: "Usain Bolt", correct: false },
+        { option: "Michael Phelps", correct: true },
+        { option: "Carl Lewis", correct: false },
+        { option: "Jesse Owens", correct: false },
+      ],
+    },
+    {
+      tag: "Olímpiadas",
+      question: "Qual país é o atual detentor do maior número de medalhas de ouro olímpicas? (2024)",
+      answers: [
+        { option: "Estados Unidos", correct: true },
+        { option: "China", correct: false },
+        { option: "Rússia", correct: false },
+        { option: "Alemanha", correct: false },
+      ],
+    },
+
+    //Games
     {
       tag: "Games",
       question: "Quem é o protagonista da série de jogos 'The Legend of Zelda'?",
@@ -544,6 +857,68 @@ export default [
       ],
     },
     {
+      tag: "Games",
+      question: "Qual jogo popular apresenta um modo de batalha real chamado 'Battle Royale'?",
+      answers: [
+        { option: "Call of Duty", correct: false },
+        { option: "Apex Legends", correct: false },
+        { option: "Fortnite", correct: true },
+        { option: "PlayerUnknown's Battlegrounds (PUBG)", correct: false },
+      ],
+    },
+    {
+      tag: "Games",
+      question: "Qual é o nome do estúdio por trás da série de jogos 'Grand Theft Auto'?",
+      answers: [
+        { option: "Rocksteady Studios", correct: false },
+        { option: "Naughty Dog", correct: false },
+        { option: "Rockstar Games", correct: true },
+        { option: "Bungie", correct: false },
+      ],
+    },
+    {
+      tag: "Games",
+      question: "Qual é o nome do estúdio responsável pela série de jogos 'Assassin's Creed'?",
+      answers: [
+        { option: "Ubisoft", correct: true },
+        { option: "Rockstar Games", correct: false },
+        { option: "Naughty Dog", correct: false },
+        { option: "Blizzard Entertainment", correct: false },
+      ],
+    },
+    {
+      tag: "Games",
+      question: "Qual é o nome do famoso encanador que é irmão do Mario?",
+      answers: [
+        { option: "Luigi", correct: true },
+        { option: "Wario", correct: false },
+        { option: "Yoshi", correct: false },
+        { option: "Bowser", correct: false },
+      ],
+    },
+    {
+      tag: "Games",
+      question: "Qual é o nome do jogo de corrida em que os jogadores competem em uma série de circuitos usando karts?",
+      answers: [
+        { option: "Forza Motorsport", correct: false },
+        { option: "Gran Turismo", correct: false },
+        { option: "Mario Kart", correct: true },
+        { option: "Need for Speed", correct: false },
+      ],
+    },
+    {
+      tag: "Games",
+      question: "O que significa 'NPC' em um jogo?",
+      answers: [
+        { option: "Non-Playable Character", correct: true },
+        { option: "New Player Character", correct: false },
+        { option: "Non-Personalized Content", correct: false },
+        { option: "Neutral Player Companion", correct: false },
+      ],
+    },
+
+    //Oscar
+    {
       tag: "Oscar",
       question: "Quem foi eleita a melhor atriz no Oscar de 2017?",
       answers: [
@@ -583,6 +958,68 @@ export default [
         { option: "18", correct: false },
       ],
     },
+    {
+      tag: "Oscar",
+      question: "Quem foi o primeiro diretor a ganhar o Oscar de Melhor Direção?",
+      answers: [
+        { option: "Steven Spielberg", correct: false },
+        { option: "Alfred Hitchcock", correct: false },
+        { option: "Frank Capra", correct: false },
+        { option: "Frank Borzage", correct: true },
+      ],
+    },
+    {
+      tag: "Oscar",
+      question: "Qual filme ganhou o Oscar de Melhor Filme em 2021?",
+      answers: [
+        { option: "Nomadland", correct: true },
+        { option: "Minari", correct: false },
+        { option: "Mank", correct: false },
+        { option: "Os 7 de Chicago", correct: false },
+      ],
+    },
+    {
+      tag: "Oscar",
+      question: "Em que ano foi realizado o primeiro Oscar?",
+      answers: [
+        { option: "1929", correct: true },
+        { option: "1928", correct: false },
+        { option: "1927", correct: false },
+        { option: "1930", correct: false },
+      ],
+    },
+    {
+      tag: "Oscar",
+      question: "Qual foi o primeiro filme brasileiro indicado ao Oscar ?",
+      answers: [
+        { option: "O Pagador de Promessas", correct: true },
+        { option: "O Quatrilho", correct: false },
+        { option: "Cidade de Deus", correct: false },
+        { option: "Central do Brasil", correct: false },
+      ],
+    },
+    {
+      tag: "Oscar",
+      question: "Qual ator ganhou o Oscar de Melhor Ator em 2019?",
+      answers: [
+        { option: "Rami Malek", correct: true },
+        { option: "Bradley Cooper", correct: false },
+        { option: "Christian Bale", correct: false },
+        { option: "Willem Dafoe", correct: false },
+      ],
+    },
+    {
+      tag: "Oscar",
+      question: "Quem venceu o oscar de melhor direção em 2014 e 2019?",
+      answers: [
+        { option: "Alfonso Cuarón", correct: true },
+        { option: "Alejandro González Iñárritu", correct: false },
+        { option: "Guilherme del Toro", correct: false },
+        { option: "Martin Scorsese", correct: false },
+      ],
+    },
+    
+    //Filosofia
     {
       tag: "Filosofia",
       question: "Qual filosófo disse a frase 'Só sei que nada sei'?",
