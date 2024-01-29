@@ -15,25 +15,26 @@ export default function DetailQuestion() {
     const [feedback, setFeedback] = useState([]);
     const detail = useParams();
     const navigate = useNavigate();
-
+    
     let perguntas= [];
 
     const temasUnicos = [...new Set(questions.map(question => question.tag))];
     const coresTema = {
-        '0': '#ba6f43',
-        '1': '#F7C942',
-        '2': '#5cb8ff',
-        '3': '#70ff63',
-        '5': '#FF6633',
-        '4': '#ff6961',
-        '6': '#e9e9e9',
-        '7': '#009000',
-        '8': '#D5D5D5',
-        '9': '#daa520',
-        '10': '#9400D3',
-        '11': '#ff7fff',
-        '12': '#ff271a',
-        '13': '#B0C4DE',
+        'Geografia': '#ba6f43',
+        'História': '#F7C942',
+        'Matemática': '#5cb8ff',
+        'Biologia': '#70ff63',
+        'Química': '#FF6633',
+        'Literatura': '#ff6961',
+        'Religião': '#e9e9e9',
+        'Olímpiadas': '#009930',
+        'Games': '#D5D5D5',
+        'Oscar': '#daa520',
+        'Filosofia': '#9400D3',
+        'Inglês': '#ff7fff',
+        'Português': '#ff271a',
+        'Calendário': '#B0C4DE',
+        'Animais': '#FF8C00'
     }
     
     for (let i = 0; i < questions.length; i++) {
@@ -142,7 +143,7 @@ export default function DetailQuestion() {
                 
                 <div className="questionContent">
                     <div className="questionTagAndIndex">
-                        <span className="tag" style={{ backgroundColor: coresTema[detail.tag]}}> {perguntas[indexAtual].tag} </span>
+                        <span className="tag" style={{ backgroundColor: coresTema[perguntas[indexAtual].tag]}}> {perguntas[indexAtual].tag} </span>
                         
                         <span className="questionIndex"> {indexAtual+1} / {perguntas.length} </span>
                     </div>
