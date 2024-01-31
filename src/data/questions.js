@@ -1427,12 +1427,311 @@ export default [
       ]
     },
 
-    
-    // Dev
-
     // Tecnologia 
-    
+    {
+      tag: "Tecnologia",
+      question: "Qual empresa desenvolveu o sistema operacional Windows?",
+      answers: [
+        { option: "Microsoft", correct: true },
+        { option: "Apple", correct: false },
+        { option: "Google", correct: false },
+        { option: "IBM", correct: false }
+      ]
+    },
+    {
+      tag: "Tecnologia",
+      question: "Qual destes é um tipo de armazenamento em nuvem?",
+      answers: [
+        { option: "Bluetooth", correct: false },
+        { option: "Firewall", correct: false },
+        { option: "Dropbox", correct: true },
+        { option: "Router", correct: false }
+      ]
+    },
+    {
+      tag: "Tecnologia",
+      question: "Quem inventou a World Wide Web?",
+      answers: [
+        { option: "Bill Gates", correct: false },
+        { option: "Terry Büyükkokten", correct: false },
+        { option: "Robert Newman", correct: false },
+        { option: "Tim Berners-Lee", correct: true }
+      ]
+    },
+    {
+      tag: "Tecnologia",
+      question: "Qual destes é um sistema operacional de código aberto?",
+      answers: [
+        { option: "Windows", correct: false },
+        { option: "Linux", correct: true },
+        { option: "macOS", correct: false },
+        { option: "iOS", correct: false }
+      ]
+    },
+    {
+      tag: "Tecnologia",
+      question: "O que significa a sigla 'PDF'?",
+      answers: [
+        { option: "Portable Document Format", correct: true },
+        { option: "Personal Data File", correct: false },
+        { option: "Powerful Data Formatting", correct: false },
+        { option: "Programmable Digital Folder", correct: false }
+      ]
+    },
+    {
+      tag: "Tecnologia",
+      question: "Quem é considerado o pai da computação?",
+      answers: [
+        { option: "Bill Gates", correct: false },
+        { option: "Steve Jobs", correct: false },
+        { option: "Tim Berners-Lee", correct: false },
+        { option: "Alan Turing", correct: true }
+      ]
+    },
+    {
+      tag: "Tecnologia",
+      question: "Qual é o principal protocolo de comunicação da Internet?",
+      answers: [
+        { option: "HTTP", correct: false },
+        { option: "FTP", correct: false },
+        { option: "TCP/IP", correct: true },
+        { option: "SMTP", correct: false }
+      ]
+    },
+    {
+      tag: "Tecnologia",
+      question: "Qual é a função do protocolo DNS?",
+      answers: [
+        { option: "Criptografar comunicações na Internet", correct: false },
+        { option: "Mapear nomes de domínio para endereços IP", correct: true },
+        { option: "Controlar o tráfego de rede", correct: false },
+        { option: "Detectar e remover vírus de computador", correct: false }
+      ]
+    },
+    {
+      tag: "Tecnologia",
+      question: "Qual é o componente responsável por armazenar permanentemente dados em um computador?",
+      answers: [
+        { option: "Disco rígido", correct: true },
+        { option: "Memória RAM", correct: false },
+        { option: "Processador", correct: false },
+        { option: "Memória", correct: false }
+      ]
+    },
+    {
+      tag: "Tecnologia",
+      question: "Qual é o nome dado ao código malicioso que se propaga de computador para computador sem intervenção do usuário?",
+      answers: [
+        { option: "Spyware", correct: false },
+        { option: "Worm", correct: false },
+        { option: "Vírus", correct: true },
+        { option: "Trojan", correct: false }
+      ]
+    },
+
+    // Dev Web
+    {
+      tag: "Dev Web",
+      question: "Qual linguagem de marcação é usada para estruturar o conteúdo de uma página web?",
+      answers: [
+        { option: "CSS", correct: false },
+        { option: "JavaScript", correct: false },
+        { option: "Python", correct: false },
+        { option: "HTML", correct: true }
+      ]
+    },
+    {
+      tag: "Dev Web",
+      question: "Qual linguagem de programação é usada para tornar as páginas web interativas?",
+      answers: [
+        { option: "JavaScript", correct: true },
+        { option: "HTML", correct: false },
+        { option: "CSS", correct: false },
+        { option: "Python", correct: false }
+      ]
+    },
+    {
+      tag: "Dev Web",
+      question: "O que são 'props' em React?",
+      answers: [
+        { option: "Métodos de ciclo de vida de componentes React", correct: false },
+        { option: "Objetos que contêm dados passados para componentes React", correct: true },
+        { option: "Funções para manipular eventos de entrada do usuário", correct: false },
+        { option: "Componentes funcionais em React", correct: false }
+      ]
+    },
+    {
+      tag: "Dev Web",
+      question: "O que significa a sigla 'HTTP'?",
+      answers: [
+        { option: "Hypertext Transfer Program", correct: false },
+        { option: "Hypertext Transfer Protocol", correct: true },
+        { option: "Hyperlink Text Protocol", correct: false },
+        { option: "Hypertext Transmission Program", correct: false }
+      ]
+    },
+    {
+      tag: "Dev Web",
+      question: "Qual é o principal objetivo do framework Node.js?",
+      answers: [
+        { option: "Facilitar a estilização de páginas web", correct: false },
+        { option: "Interagir com bancos de dados relacionais", correct: false },
+        { option: "Criar interfaces de usuário interativas", correct: false },
+        { option: "Permitir a execução de JavaScript no servidor", correct: true }
+      ]
+    },
+    {
+      tag: "Dev Web",
+      question: "Qual é a biblioteca de roteamento mais usada em aplicações React?",
+      answers: [
+        { option: "React Router", correct: true },
+        { option: "Axios", correct: false },
+        { option: "React Rouder Dom", correct: false },
+        { option: "Vue Router", correct: false }
+      ]
+    },
+    {
+      tag: "Dev Web",
+      question: "Qual é o arquivo de configuração principal do Spring Boot?",
+      answers: [
+        { option: "web.xml", correct: false },
+        { option: "pom.xml", correct: false },
+        { option: "build.gradle", correct: false },
+        { option: "application.properties", correct: true }
+      ]
+    },
+    {
+      tag: "Dev Web",
+      question: "Qual é a função do método 'setState()' em um componente React?",
+      answers: [
+        { option: "Executar uma ação assíncrona após o componente ser montado", correct: false },
+        { option: "Atualizar o estado interno do componente ", correct: true },
+        { option: "Definir as propriedades iniciais do componente", correct: false },
+        { option: "Controlar a navegação entre páginas da aplicação", correct: false }
+      ]
+    },
+    {
+      tag: "Dev Web",
+      question: "Quais são os métodos HTTP usados para operações de leitura e gravação em um servidor?",
+      answers: [
+        { option: "PUT e DELETE", correct: false },
+        { option: "GET e PUT", correct: false },
+        { option: "GET e POST", correct: true },
+        { option: "OPTIONS e PUT", correct: false }
+      ]
+    },
+    {
+      tag: "Dev Web",
+      question: "Qual é a consulta SQL usada para recuperar todas as linhas de uma tabela chamada 'clientes'?",
+      answers: [
+        { option: "SELECT ALL FROM clientes", correct: false },
+        { option: "SELECT * FROM clientes c ORDER BY c.name", correct: false },
+        { option: "FIND clientes", correct: false },
+        { option: "SELECT * FROM clientes", correct: true },
+      ]
+    },  
+
     // Desenhos
+    {
+      tag: "Desenhos",
+      question: "Qual o nome do lanche no desenho 'Bob Esponja Calça Quadrada'?",
+      answers: [
+        { option: "Hamburger de Siri", correct: true },
+        { option: "Hamburger do Siriguejo", correct: false },
+        { option: "Hambuger do Bob", correct: false },
+        { option: "McLanche Feliz", correct: false }
+      ]
+    },
+    {
+      tag: "Desenhos",
+      question: "Em 'Os Simpsons', qual é o nome do bar frequentado por Homer Simpson?",
+      answers: [
+        { option: "Taverna do Carl", correct: false },
+        { option: "Bar do Barney", correct: false },
+        { option: "Bar do Lenny", correct: false },
+        { option: "Bar do Moe", correct: true }
+      ]
+    },
+    {
+      tag: "Desenhos",
+      question: "Quem é o principal personagem da série 'Hora de Aventura'?",
+      answers: [
+        { option: "Jake", correct: false },
+        { option: "BMO", correct: false },
+        { option: "Finn", correct: true },
+        { option: "Rei Gelado", correct: false }
+      ]
+    },
+    {
+      tag: "Desenhos",
+      question: "Quem é o vilão principal em 'Os Incríveis'?",
+      answers: [
+        { option: "Beto Pera", correct: false },
+        { option: "Jim Parker", correct: false },
+        { option: "Síndrome", correct: true },
+        { option: "Jafar", correct: false }
+      ]
+    },
+    {
+      tag: "Desenhos",
+      question: "Quem é o alien mais inteligente em 'Ben 10'?",
+      answers: [
+        { option: "XRL8", correct: false },
+        { option: "Massa Cinzenta", correct: true },
+        { option: "Cerebral", correct: false },
+        { option: "Quatro olhos", correct: false }
+      ]
+    },
+    {
+      tag: "Desenhos",
+      question: "Qual é o nome do personagem principal de 'Pokémon'?",
+      answers: [
+        { option: "Ash", correct: true },
+        { option: "Gary", correct: false },
+        { option: "Brock", correct: false },
+        { option: "Misty", correct: false }
+      ]
+    },
+    {
+      tag: "Desenhos",
+      question: "Quem é o melhor amigo de Pumba em 'O Rei Leão'?",
+      answers: [
+        { option: "Simba", correct: false },
+        { option: "Rafiki", correct: false },
+        { option: "Zazu", correct: false },
+        { option: "Timão", correct: true },
+      ]
+    },
+    {
+      tag: "Desenhos",
+      question: "Qual é o nome da princesa de cabelo ruivo em 'Frozen'?",
+      answers: [
+        { option: "Elsa", correct: false },
+        { option: "Anna", correct: true },
+        { option: "Olaf", correct: false },
+        { option: "Rapunzel", correct: false }
+      ]
+    },
+    {
+      tag: "Desenhos",
+      question: "Qual é o nome do dragão companheiro de Soluço em 'Como Treinar o seu Dragão'?",
+      answers: [
+        { option: "Banguela", correct: true },
+        { option: "Fúria da Noite", correct: false },
+        { option: "Dente de Anzol", correct: false },
+        { option: "Gronckle", correct: false }
+      ]
+    },
+    {
+      tag: "Desenhos",
+      question: "Qual é o nome do esquilo azarado em 'A Era do Gelo'?",
+      answers: [
+        { option: "Sid", correct: true },
+        { option: "Noble", correct: false },
+        { option: "Manny", correct: false },
+        { option: "Scrat", correct: true }
+      ]
+    },
     
     // Séries
     
