@@ -1061,6 +1061,68 @@ export default [
       ],
     },
     {
+      tag: "Filosofia",
+      question: "Qual é o conceito filosófico que se refere à busca pela verdade através da razão?",
+      answers: [
+        { option: "Empirismo", correct: false },
+        { option: "Ceticismo", correct: false },
+        { option: "Racionalismo", correct: true },
+        { option: "Idealismo", correct: false },
+      ],
+    },
+    {
+      tag: "Filosofia",
+      question: "O que significa 'Cogito, ergo sum'?",
+      answers: [
+        { option: "Penso, logo existo", correct: true },
+        { option: "Conheço, logo sou", correct: false },
+        { option: "Aja de acordo com a natureza", correct: false },
+        { option: "Tudo flui", correct: false },
+      ],
+    },
+    {
+      tag: "Filosofia",
+      question: "Quem é considerado o fundador da filosofia ocidental?",
+      answers: [
+        { option: "Platão", correct: false },
+        { option: "Aristóteles", correct: false },
+        { option: "Sócrates", correct: true },
+        { option: "Heráclito", correct: false },
+      ],
+    },
+    {
+      tag: "Filosofia",
+      question: "A Alegoria da Caverna (ou Mito da Caverna) é uma metáfora escrita por qual filósofo ?",
+      answers: [
+        { option: "Aristóteles", correct: false },
+        { option: "Platão", correct: true },
+        { option: "Sócrates", correct: false },
+        { option: "Heráclito", correct: false },
+      ],
+    },
+    {
+      tag: "Filosofia",
+      question: "Qual é o nome do movimento filosófico que enfatiza a importância da existência individual ?",
+      answers: [
+        { option: "Racionalismo", correct: false },
+        { option: "Existencialismo", correct: true },
+        { option: "Idealismo", correct: false },
+        { option: "Empirismo", correct: false },
+      ],
+    },
+    {
+      tag: "Filosofia",
+      question: "Qual filósofo grego é conhecido por sua teoria do atomismo?",
+      answers: [
+        { option: "Sócrates", correct: false },
+        { option: "Platão", correct: false },
+        { option: "Aristóteles", correct: false },
+        { option: "Demócrito", correct: true },
+      ],
+    },
+
+    // Inglês
+    {
       tag: "Inglês",
       question: "O que a palavra legend significa em português?",
       answers: [
@@ -1101,6 +1163,68 @@ export default [
       ],
     },  
     {
+      tag: "Inglês",
+      question: "Qual é a tradução da expressão 'Break a Leg'?",
+      answers: [
+        { option: "Quebrar uma perna", correct: false },
+        { option: "Boa sorte", correct: true },
+        { option: "Fazer o melhor", correct: false },
+        { option: "Quebre tudo", correct: false },
+      ],
+    },
+    {
+      tag: "Inglês",
+      question: "Como se diz 'Inverno' em inglês? ",
+      answers: [
+        { option: "Winter", correct: true },
+        { option: "Summer", correct: false },
+        { option: "Spring", correct: false },
+        { option: "Invern", correct: false },
+      ],
+    },
+    {
+      tag: "Inglês",
+      question: "Qual o Past Participle do verbo 'to go' ",
+      answers: [
+        { option: "Go", correct: false },
+        { option: "Goed", correct: false },
+        { option: "Went", correct: false },
+        { option: "Gone", correct: true },
+      ],
+    },
+    {
+      tag: "Inglês",
+      question: "Como se diz 'Esverdeado' em inglês?",
+      answers: [
+        { option: "Dark Green", correct: false },
+        { option: "Greenish", correct: true },
+        { option: "Green Lake", correct: false },
+        { option: "Strong Green", correct: false },
+      ],
+    },
+    {
+      tag: "Inglês",
+      question: "Quais destas frases usa 'many' ou 'much' corretamente?",
+      answers: [
+        { option: "There aren't much boys in my classroom", correct: false },
+        { option: "I've got many cars", correct: true },
+        { option: "My mom likes much people", correct: false },
+        { option: "There is many cake in this library", correct: false },
+      ],
+    },
+    {
+      tag: "Inglês",
+      question: "Qual jeito certo de se escrever o número 1000",
+      answers: [
+        { option: "A million", correct: false },
+        { option: "A hundred", correct: false },
+        { option: "A thousand", correct: true },
+        { option: "A dhoused", correct: false },
+      ],
+    },
+
+    // Português
+    {
       tag: "Português",
       question: "'Subir para cima' e 'descer para baixo' são exemplos de:",
       answers: [
@@ -1139,8 +1263,70 @@ export default [
           { option: "Adjetivo", correct: false },
           { option: "Artigo", correct: false }
         ],
-     },
-     {
+    },
+    {
+      tag: "Português",
+      question: "O que é um pronome pessoal?",
+      answers: [
+        { option: "Um pronome que se refere a objetos", correct: false },
+        { option: "Um pronome que se refere a lugares", correct: false },
+        { option: "Um pronome que se refere a pessoas", correct: true },
+        { option: "Um pronome que se refere a animais", correct: false },
+      ],
+    },
+    {
+      tag: "Português",
+      question: "Qual é o antônimo da palavra 'bom'?",
+      answers: [
+        { option: "Ótimo", correct: false },
+        { option: "Ruim", correct: true },
+        { option: "Excelente", correct: false },
+        { option: "Bem", correct: false },
+      ],
+    },
+    {
+      tag: "Português",
+      question: "O que é uma conjunção?",
+      answers: [
+        { option: "Um classe de palavras que liga verbos", correct: false },
+        { option: "Um tipo de substantivo", correct: false },
+        { option: "Uma classe de palavras que servem de ligação entre elementos ", correct: true },
+        { option: "Um tipo de adjetivo", correct: false },
+      ],
+    },
+    {
+      tag: "Português",
+      question: "Qual é o plural de 'cão'?",
+      answers: [
+        { option: "Cães", correct: true },
+        { option: "Cãoes", correct: false },
+        { option: "Cãos", correct: false },
+        { option: "Cães", correct: false },
+      ],
+    },
+    {
+      tag: "Português",
+      question: "O que é uma elipse?",
+      answers: [
+        { option: "Uma figura de linguagem que consiste em omitir um termo", correct: true },
+        { option: "Um tipo de oração subordinada", correct: false },
+        { option: "Uma figura de linguagem que consiste em repetir palavras", correct: false },
+        { option: "Um tipo de pronome que indica posse", correct: false },
+      ],
+    },
+    {
+      tag: "Português",
+      question: "Qual é a forma correta de escrever a palavra?",
+      answers: [
+        { option: "Estemporâneo", correct: false },
+        { option: "Extêmporaneo", correct: false },
+        { option: "Extemporâneo", correct: true },
+        { option: "Estêmporaneo", correct: false },
+      ],
+    },
+    
+    //Calendário
+    {
       tag: "Calendário",
       question: "Que dia é o feriado de Tiradentes?",
       answers: [
@@ -1149,8 +1335,7 @@ export default [
         { option: "12 de outubro", correct: false },
         { option: "20 de maio", correct: false },
       ]
-    },
-    
+    }, 
     {
       tag: "Calendário",
       question: "Que dia é comemorado o Dia do Trabalho?",
@@ -1180,6 +1365,96 @@ export default [
         { option: "Júlio César", correct: true },
         { option: "Diogenes II", correct: false }
       ]
-    }
-  
+    },
+    {
+      tag: "Calendário",
+      question: "Quantos meses têm 30 dias?",
+      answers: [
+        { option: "3", correct: false },
+        { option: "4", correct: true },
+        { option: "5", correct: false },
+        { option: "6", correct: false }
+      ]
+    },
+    {
+      tag: "Calendário",
+      question: "Em que dia do ano é celebrado o Dia Internacional da Mulher?",
+      answers: [
+        { option: "8 de abril", correct: false },
+        { option: "8 de março", correct: true },
+        { option: "8 de maio", correct: false },
+        { option: "8 de fevereiro", correct: false }
+      ]
+    },
+    {
+      tag: "Calendário",
+      question: "Qual é a data da Proclamação da República do Brasil?",
+      answers: [
+        { option: "12 de outubro", correct: false },
+        { option: "7 de setembro", correct: false },
+        { option: "15 de novembro", correct: true },
+        { option: "25 de dezembro", correct: false }
+      ]
+    },
+    {
+      tag: "Calendário",
+      question: "Em que dia começou a Primeira Guerra Mundial?",
+      answers: [
+        { option: "28 de julho de 1914", correct: true },
+        { option: "4 de agosto de 1914", correct: false },
+        { option: "11 de novembro de 1918", correct: false },
+        { option: "28 de junho de 1918", correct: false }
+      ]
+    },
+    {
+      tag: "Calendário",
+      question: "Em que dia é celebrado o Dia do Índio no Brasil?",
+      answers: [
+        { option: "7 de março", correct: false },
+        { option: "21 de março", correct: false },
+        { option: "12 de abril", correct: false },
+        { option: "19 de abril", correct: true }
+      ]
+    },
+    {
+      tag: "Calendário",
+      question: "Em que mês nasceu Albert Einstein?",
+      answers: [
+        { option: "Abril", correct: false },
+        { option: "Março", correct: true },
+        { option: "Fevereiro", correct: false },
+        { option: "Janeiro", correct: false }
+      ]
+    },
+
+    
+    // Dev
+
+    // Tecnologia 
+    
+    // Desenhos
+    
+    // Séries
+    
+    // Animes
+    
+    // Culinária
+    
+    // Música
+
+    // Folclore
+    
+    // Super Heróis
+
+    // Mitologia Grega
+
+    // Astronomia
+
+    // Futebol
+
+    // Basquete
+
+    
+
+
   ];
