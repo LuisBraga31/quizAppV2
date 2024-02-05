@@ -1734,11 +1734,211 @@ export default [
     },
     
     // Séries
-    
+    {
+      tag: "Séries",
+      question: "Quem é o protagonista de 'Breaking Bad' ?",
+      answers: [
+        { option: "Jesse Pinkman", correct: false },
+        { option: "Walter White", correct: true },
+        { option: "Saul Goodman", correct: false },
+        { option: "Hank Schrader", correct: false }
+      ]
+    },
+    {
+      tag: "Séries",
+      question: "Qual é o nome da série de televisão baseada nos livros de George R. R. Martin?",
+      answers: [
+        { option: "The Witcher", correct: false },
+        { option: "Outlander", correct: false },
+        { option: "Game of Thrones", correct: true },
+        { option: "The Crown", correct: false }
+      ]
+    },
+    {
+      tag: "Séries",
+      question: "Qual é o nome do capitão da polícia na série Brooklyn 99?",
+      answers: [
+        { option: "Raymond Holt", correct: true },
+        { option: "Jake Peralta", correct: false },
+        { option: "Terry Jeffords", correct: false },
+        { option: "Charles Boyle", correct: false }
+      ]
+    },
+    {
+      tag: "Séries",
+      question: "Qual é o nome do líder do grupo de sobreviventes em 'The Walking Dead'?",
+      answers: [
+        { option: "Daryl Dixon", correct: false },
+        { option: "Negan", correct: false },
+        { option: "Michonne", correct: false },
+        { option: "Rick Grimes", correct: true },
+      ]
+    },
+    {
+      tag: "Séries",
+      question: "Quem é o pai dos irmãos protagonistas de 'Supernatural' ?",
+      answers: [
+        { option: "John Winchester", correct: true },
+        { option: "Dean Winchester", correct: false },
+        { option: "Sam Winchester", correct: false },
+        { option: "Derick Winchester", correct: false }
+      ]
+    },
+    {
+      tag: "Séries",
+      question: "Qual é o nome da cidade onde ocorrem eventos estranhos em 'Stranger Things'?",
+      answers: [
+        { option: "Springfield", correct: false },
+        { option: "Hawkins", correct: true },
+        { option: "Riverdale", correct: false },
+        { option: "Sunnydale", correct: false }
+      ]
+    },
+    {
+      tag: "Séries",
+      question: "Na série 'La Casa de Papel', quantos assaltantes invadem a casa da moeda?",
+      answers: [
+        { option: "10", correct: false },
+        { option: "9", correct: false },
+        { option: "12", correct: false },
+        { option: "8", correct: true },
+      ]
+    },
+    {
+      tag: "Séries",
+      question: "Qual dessas formas não aparece no jogo colmeia de açúcar em 'Round 6'?",
+      answers: [
+        { option: "Triângulo", correct: false },
+        { option: "Quadrado", correct: true },
+        { option: "Guarda-Chuva", correct: false },
+        { option: "Estrela", correct: false }
+      ]
+    },
+    {
+      tag: "Séries",
+      question: "Qual é o nome do animal de estimação de Ross em 'Friends'?",
+      answers: [
+        { option: "Marcel", correct: true },
+        { option: "Gunter", correct: false },
+        { option: "Smelly Cat", correct: false },
+        { option: "Phoebe", correct: false }
+      ]
+    },
+    {
+      tag: "Séries",
+      question: "Qual é o nome do vendedor que é conhecido por suas histórias inapropriadas em 'The Office'?",
+      answers: [
+        { option: "Michael Scott", correct: false },
+        { option: "Jim Halpert", correct: false },
+        { option: "Dwight Schrute", correct: false },
+        { option: "Todd Packer", correct: true }
+      ]
+    },
+
     // Animes
     
     // Culinária
-    
+    {
+      tag: "Culinária",
+      question: "Qual é o ingrediente principal da tradicional sobremesa francesa 'Crème Brûlée'?",
+      answers: [
+        { option: "Leite", correct: false },
+        { option: "Açúcar", correct: false },
+        { option: "Ovos", correct: false },
+        { option: "Creme de leite", correct: true }
+      ]
+    },
+    {
+      tag: "Culinária",
+      question: "Qual é o nome do prato japonês composto por arroz coberto por fatias de peixe cru?",
+      answers: [
+        { option: "Tempurá", correct: false },
+        { option: "Sashimi", correct: true },
+        { option: "Yakissoba", correct: false },
+        { option: "Gyoza", correct: false }
+      ]
+    },
+    {
+      tag: "Culinária",
+      question: "Qual é o prato nacional da Itália, feito com macarrão, molho de tomate e queijo parmesão?",
+      answers: [
+        { option: "Risoto", correct: false },
+        { option: "Pizza", correct: false },
+        { option: "Lasanha", correct: false },
+        { option: "Espaguete à Bolonhesa", correct: true }
+      ]
+    },
+    {
+      tag: "Culinária",
+      question: "Qual é o nome do prato mexicano, composto por uma tortilla dobrada com recheio de carne, queijo e outros ingredientes?",
+      answers: [
+        { option: "Burrito", correct: true },
+        { option: "Enchilada", correct: false },
+        { option: "Taco", correct: false },
+        { option: "Quesadilla", correct: false }
+      ]
+    },
+    {
+      tag: "Culinária",
+      question: "Qual é o nome do doce típico brasileiro feito de coco ralado, leite condensado e açúcar?",
+      answers: [
+        { option: "Brigadeiro", correct: false },
+        { option: "Cajuzinho", correct: false },
+        { option: "Beijinho", correct: true },
+        { option: "Quindim", correct: false },
+      ]
+    },
+    {
+      tag: "Culinária",
+      question: "Qual é o ingrediente principal da tradicional sopa francesa 'Bisque'?",
+      answers: [
+        { option: "Frango", correct: false },
+        { option: "Carne de Porco", correct: false },
+        { option: "Lagosta", correct: true },
+        { option: "Cogumelos", correct: false }
+      ]
+    },
+    {
+      tag: "Culinária",
+      question: "Qual é o ingrediente principal do prato brasileiro 'Bobó de Camarão'?",
+      answers: [
+        { option: "Carne de Porco", correct: false },
+        { option: "Frango", correct: false },
+        { option: "Camarão", correct: true },
+        { option: "Peixe", correct: false }
+      ]
+    },
+    {
+      tag: "Culinária",
+      question: "Qual é o corte de carne bovina mais utilizado para fazer um churrasco no Brasil?",
+      answers: [
+        { option: "Alcatra", correct: false },
+        { option: "Picanha", correct: true },
+        { option: "Coxão Mole", correct: false },
+        { option: "Contrafilé", correct: false }
+      ]
+    },
+    {
+      tag: "Culinária",
+      question: "Qual é o nome do bolo tradicional brasileiro feito com massa de mandioca ralada e coco?",
+      answers: [
+        { option: "Bolo de Fubá", correct: false },
+        { option: "Bolo de Milho", correct: false },
+        { option: "Bolo de Mandioca", correct: true },
+        { option: "Bolo de Cenoura", correct: false }
+      ]
+    },
+    {
+      tag: "Culinária",
+      question: "Qual é o nome da verdura de folhas verdes escuras, geralmente utilizada em saladas, refogados e sucos?",
+      answers: [
+        { option: "Alface", correct: false },
+        { option: "Alface Roxo", correct: false },
+        { option: "Espinafre", correct: false },
+        { option: "Rúcula", correct: true },
+      ]
+    },
+
     // Música
 
     // Folclore
@@ -1752,6 +1952,10 @@ export default [
     // Futebol
 
     // Basquete
+
+    // Pokémon
+
+    // Harry Potter
 
     
 

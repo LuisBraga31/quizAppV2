@@ -22,7 +22,7 @@ export const coresTema = {
     'Música' : '#7B68EE',
     'Folclore' : '#98FB98',
     'Super Heróis' : '#DC143C',
-    'Mitologia Grega': '#F5F5F5',
+    'Mitologia Grega': '#a1e6ff',
     'Astronomia': '#778899',
     'Futebol': '#7FFF00',
     'Basquete': '#FF8C00',
